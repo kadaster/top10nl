@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:brt="http://register.geostandaarden.nl/gmlapplicatieschema/brt-algemeen/1.2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:top10nl="http://register.geostandaarden.nl/gmlapplicatieschema/top10nl/1.2.0" elementFormDefault="qualified" targetNamespace="http://register.geostandaarden.nl/gmlapplicatieschema/top10nl/1.2.0" version="1.2.0">
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:brt="http://register.geostandaarden.nl/gmlapplicatieschema/brt-algemeen/1.2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:top10nl="http://register.geostandaarden.nl/gmlapplicatieschema/top10nl/1.2.0" elementFormDefault="qualified" targetNamespace="http://register.geostandaarden.nl/gmlapplicatieschema/top10nl/1.2.0" version="1.2.0">
   <import namespace="http://register.geostandaarden.nl/gmlapplicatieschema/brt-algemeen/1.2.0" schemaLocation="http://register.geostandaarden.nl/gmlapplicatieschema/brt-algemeen/1.2.0/brt-algemeen.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
   <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
@@ -42,8 +41,7 @@
         <sequence>
           <element name="typeFunctioneelGebied" type="gml:CodeType">
             <annotation>
-              <documentation>Het soort functioneel gebied.
-De waardelijst is beschikbaar via http://www.kadaster.nl/schemas/waardelijsten/BRT/TOP10NL/</documentation>
+              <documentation>Het soort functioneel gebied.</documentation>
             </annotation>
           </element>
           <element minOccurs="0" name="soortnaam" type="string">
@@ -128,8 +126,7 @@ De waardelijst is beschikbaar via http://www.kadaster.nl/schemas/waardelijsten/B
           </element>
           <element maxOccurs="unbounded" minOccurs="0" name="gebruiksdoel" type="gml:CodeType">
             <annotation>
-              <documentation>-- Defintion --
-Huidig gebruiksdoel van een gebouw, conform de BAG classificatie voor panden</documentation>
+              <documentation>Huidig gebruiksdoel van een gebouw, conform de BAG classificatie voor panden</documentation>
             </annotation>
           </element>
           <element name="geometrie" type="brt:BRTVlakOfPuntPropertyType">
@@ -257,8 +254,7 @@ NOTE Onder de klasse Hoogte vallen de hoogte- en dieptelijnen alsmede hoogte- en
           <element name="hoogteniveau" type="integer">
             <annotation>
               <documentation>De relatieve hoogteligging van het geo-object ten opzichte van een ander geo-object.
---Description--
-Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
+NOTE Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
             </annotation>
           </element>
           <element minOccurs="0" name="soortnaam" type="string">
@@ -357,8 +353,7 @@ NOTE Bebouwde kommen worden omsloten door blauwe plaatsnaam borden.</documentati
   <element name="PlanTopografie" substitutionGroup="top10nl:_Top10nlObject" type="top10nl:PlanTopografieType">
     <annotation>
       <documentation>ruimtelijk object dat wel gepland is, maar nog niet in uitvoering is; meestal een groot infrastructureel object
--- Descripion --
-Voorbeelden zijn: nieuwe spoorbanen, snelwegen en kanalen</documentation>
+NOTE Voorbeelden zijn: nieuwe spoorbanen, snelwegen en kanalen</documentation>
     </annotation>
   </element>
   <complexType name="PlanTopografieType">
@@ -464,8 +459,7 @@ NOTE Onder de klasse Relief vallen objecten die een hoogteverschil in het terrei
           <element name="hoogteniveau" type="integer">
             <annotation>
               <documentation>De relatieve hoogteligging van het geo-object ten opzichte van een ander geo-object.
---Description--
-Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
+NOTE Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
             </annotation>
           </element>
           <element minOccurs="0" name="functie" type="gml:CodeType">
@@ -541,8 +535,7 @@ Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elk
           <element name="hoogteniveau" type="integer">
             <annotation>
               <documentation>De relatieve hoogteligging van het geo-object ten opzichte van een ander geo-object.
---Description--
-Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
+NOTE Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
             </annotation>
           </element>
           <element name="status" type="gml:CodeType">
@@ -567,7 +560,7 @@ Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elk
           </element>
           <element name="geometrie" type="brt:BRTLijnOfPuntPropertyType">
             <annotation>
-              <documentation>De lijn geometrie van een spoorbaandeel</documentation>
+              <documentation>De geometrie van een spoorbaandeel (lijn of punt)</documentation>
             </annotation>
           </element>
         </sequence>
@@ -608,8 +601,7 @@ Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elk
           <element name="hoogteniveau" type="integer">
             <annotation>
               <documentation>De relatieve hoogteligging van het geo-object ten opzichte van een ander geo-object.
---Description--
-Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
+NOTE Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
             </annotation>
           </element>
           <element minOccurs="0" name="naam" type="string">
@@ -671,8 +663,7 @@ NOTE Voorbeelden zijn: rivier, kanaal, beek, zee, meer, oppervlaktewater in alge
           <element name="hoogteniveau" type="integer">
             <annotation>
               <documentation>De relatieve hoogteligging van het geo-object ten opzichte van een ander geo-object.
---Description--
-Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
+NOTE Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
             </annotation>
           </element>
           <element name="functie" type="gml:CodeType">
@@ -788,8 +779,7 @@ Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elk
           <element name="hoogteniveau" type="integer">
             <annotation>
               <documentation>De relatieve hoogteligging van het geo-object ten opzichte van een ander geo-object.
---Description--
-Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
+NOTE Op basis van het hoogteniveau kan worden bepaald op welke wijze geo-objecten elkaar kruisen,  waarbij het hoogste object op niveau 0 ligt.</documentation>
             </annotation>
           </element>
           <element name="status" type="gml:CodeType">
@@ -918,7 +908,7 @@ NEN 3610:2011</documentation>
           </element>
           <element name="objectBeginTijd" type="date">
             <annotation>
-              <documentation>Object begintijd: tijdstip waarop het object in de registratie is ontstaan
+              <documentation>Object begintijd: Tijdstip waarop het object in de registratie is ontstaan
 NOTE Dit tijdstip moet altijd gelijk zijn aan het tijdstipregistratie van het eerste voorkomen van het object.
 Er zijn verschillende datatypes voor de representatie van een tijdstip: Afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit types TM_Instant, Date of DateTime.
 -- Source --
@@ -927,7 +917,7 @@ NEN 3610:2011</documentation>
           </element>
           <element minOccurs="0" name="objectEindTijd" type="date">
             <annotation>
-              <documentation>Object eindtijd: Tiijdstip waarop het object in de registratie niet meer geldig is
+              <documentation>Object eindtijd: Tijdstip waarop het object in de registratie niet meer geldig is
 NOTE Er zijn verschillende datatypes voor de representatie van een tijdstip: Afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit types TM_Instant, Date of DateTime.
 -- Source --
 NEN 3610:2011</documentation>
@@ -938,7 +928,11 @@ NEN 3610:2011</documentation>
               <documentation>Tijdstip waarop de versie van het object is opgenomen in de registratie</documentation>
             </annotation>
           </element>
-          <element minOccurs="0" name="eindRegistratie" type="date"/>
+          <element minOccurs="0" name="eindRegistratie" type="date">
+            <annotation>
+              <documentation>Tijdstip waarop de versie van het object niet meer geldig is in de registratie</documentation>
+            </annotation>
+          </element>
           <element minOccurs="0" name="tdnCode" type="integer">
             <annotation>
               <documentation>Code die het object in TOP10vector had.</documentation>

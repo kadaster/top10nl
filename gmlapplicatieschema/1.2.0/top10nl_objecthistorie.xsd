@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:brt="http://register.geostandaarden.nl/gmlapplicatieschema/brt-algemeen/1.2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:top10nl="http://register.geostandaarden.nl/gmlapplicatieschema/top10nl/1.2.0" elementFormDefault="qualified" targetNamespace="http://register.geostandaarden.nl/gmlapplicatieschema/top10nl/1.2.0" version="1.2.0">
+  <import namespace="http://register.geostandaarden.nl/gmlapplicatieschema/brt-algemeen/1.2.0" schemaLocation="http://register.geostandaarden.nl/gmlapplicatieschema/brt-algemeen/1.2.0/brt-algemeen.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+  <!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+  <element name="FeatureCollectionT10NLObjhis" substitutionGroup="gml:AbstractGML" type="top10nl:FeatureCollectionT10NLObjhisType"/>
+  <complexType name="FeatureCollectionT10NLObjhisType">
+    <complexContent>
+      <extension base="gml:AbstractGMLType">
+        <sequence>
+          <element maxOccurs="unbounded" minOccurs="0" name="FeatureMember">
+            <complexType>
+              <complexContent>
+                <extension base="gml:AbstractFeatureMemberType">
+                  <sequence minOccurs="0">
+                    <element ref="top10nl:historischObject"/>
+                  </sequence>
+                  <attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </extension>
+              </complexContent>
+            </complexType>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="FeatureCollectionT10NLObjhisPropertyType">
+    <sequence minOccurs="0">
+      <element ref="top10nl:FeatureCollectionT10NLObjhis"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+  <simpleType name="T10ObjhisObjectklasseWaardeType">
+    <annotation>
+      <documentation>Waardelijst voor de objectklasses.</documentation>
+    </annotation>
+    <restriction base="string">
+      <enumeration value="Wegdeel"/>
+      <enumeration value="Spoorbaandeel"/>
+      <enumeration value="Waterdeel"/>
+      <enumeration value="Gebouw"/>
+      <enumeration value="Terrein"/>
+      <enumeration value="Inrichtingselement"/>
+      <enumeration value="Relief"/>
+      <enumeration value="Hoogte"/>
+      <enumeration value="RegistratiefGebied"/>
+      <enumeration value="GeografischGebied"/>
+      <enumeration value="Plaats"/>
+      <enumeration value="FunctioneelGebied"/>
+      <enumeration value="PlanTopografie"/>
+    </restriction>
+  </simpleType>
+  <element name="historischObject" substitutionGroup="gml:AbstractFeature" type="top10nl:historischObjectType">
+    <annotation>
+      <documentation>Objecthistorie geeft informatie over vervallen objecten en vervallen versies van objecten in TOP10NL</documentation>
+    </annotation>
+  </element>
+  <complexType name="historischObjectType">
+    <complexContent>
+      <extension base="gml:AbstractFeatureType">
+        <sequence>
+          <element name="identificatie">
+            <annotation>
+              <documentation>Unieke identificatie van het object binnen het domein van NEN 3610.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+            <complexType>
+              <sequence>
+                <element ref="brt:NEN3610ID"/>
+              </sequence>
+            </complexType>
+          </element>
+          <element name="objectBeginTijd" type="date">
+            <annotation>
+              <documentation>Object begintijd: Tijdstip waarop het object in de registratie is ontstaan
+NOTE Dit tijdstip moet altijd gelijk zijn aan het tijdstipregistratie van het eerste voorkomen van het object.
+Er zijn verschillende datatypes voor de representatie van een tijdstip: Afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit types TM_Instant, Date of DateTime.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+          </element>
+          <element minOccurs="0" name="objectEindTijd" type="date">
+            <annotation>
+              <documentation>Object eindtijd: Tijdstip waarop het object in de registratie niet meer geldig is
+NOTE Er zijn verschillende datatypes voor de representatie van een tijdstip: Afhankelijk van de gebruikerswensen m.b.t. granulariteit kan o.a. worden gekozen uit types TM_Instant, Date of DateTime.
+-- Source --
+NEN 3610:2011</documentation>
+            </annotation>
+          </element>
+          <element name="tijdstipRegistratie" type="date">
+            <annotation>
+              <documentation>Tijdstip waarop de versie van het object is opgenomen in de registratie</documentation>
+            </annotation>
+          </element>
+          <element name="eindRegistratie" type="date">
+            <annotation>
+              <documentation>Tijdstip waarop de versie van het object niet meer geldig is in de registratie</documentation>
+            </annotation>
+          </element>
+          <element name="objectklasse" type="top10nl:T10ObjhisObjectklasseWaardeType">
+            <annotation>
+              <documentation>Objectklasse: Objectklasse van het TOP10NL object</documentation>
+            </annotation>
+          </element>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="historischObjectPropertyType">
+    <sequence minOccurs="0">
+      <element ref="top10nl:historischObject"/>
+    </sequence>
+    <attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+  </complexType>
+</schema>
