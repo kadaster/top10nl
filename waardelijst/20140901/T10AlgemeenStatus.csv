@@ -1,0 +1,4 @@
+Code;Waarde;Omschrijving;Inwinningscriteria;DatumVanaf;DatumTot
+1;in uitvoering;Het object is in aanleg.;;01-09-2014;
+2;in gebruik;Het object wordt gebruikt.;;01-09-2014;
+3;buiten gebruik;Het object wordt niet meer (als zodanig) gebruikt.;;01-09-2014;

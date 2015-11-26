@@ -1,0 +1,9 @@
+Code;Waarde;Omschrijving;Inwinningscriteria;DatumVanaf;DatumTot
+1;snelverkeer;Weg, bestemd voor motorvoertuigen;;01-09-2014;
+2;gemengd verkeer;Weg, bestemd voor allerlei soorten verkeer;;01-09-2014;
+3;busverkeer;Weg speciaal bestemd voor openbaar vervoer;Indien een busbaan is geïntegreerd in een bredere weg (dus als er op de grens tussen de busbaan en de rest van de weg geen fysieke barrière is om oneigenlijk gebruik te verhinderen), dan wordt de busbaan niet apart aangegeven;01-09-2014;
+4;fietsers, bromfietsers;Weg uitsluitend bestemd voor fietsers en/of bromfietsers en daartoe aangeduid met een blauw bord met daarop een wit rijwiel, of een blauw of zwart bord met daarop de tekst “FIETSPAD” of “RIJWIELPAD”. Indien, in uitzonderlijke gevallen, met grote mate van zekerheid bepaald kan worden dat een weg/pad een rijwielpad is, mag afgeweken worden van de regel dat er een aanduiding moet zijn.;Een vrijliggend rijwielpad (waar niet direct een ander wegdeel naast ligt) breder dan 2 meter wordt altijd aangegeven.Een parallel gelegen rijwielpad (direct gelegen naast een ander wegdeel, met een fysieke scheiding ertussen) breder dan 2 meter, buiten bebouwd gebied, wordt altijd aangegeven.Een parallel gelegen rijwielpad breder dan 2 meter, binnen bebouwd gebied, wordt alleen gegeven naast een autosnelweg, hoofdweg, regionale weg of lokale weg.etc.....;01-09-2014;
+5;voetgangers;Weg, uitsluitend bestemd voor voetgangers;Voetpaden smaller dan 2 meter worden alleen ingewonnen indien vrijliggend van andere wegdelen en langer dan 100 meter.Etc....;01-09-2014;
+6;ruiters;Weg bestemd voor paardrijders;;01-09-2014;
+7;vliegverkeer;Weg, bestemd voor luchtvaartuigen;;01-09-2014;
+8;overig;De waarde van het objectkenmerk is bekend, maar anders dan de genoemde waarden;;01-09-2014;
