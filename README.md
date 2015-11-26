@@ -8,3 +8,4 @@ De objecthistorie van TOP10NL 1.2.0 is ook een onderdeel van IMBRT.
 
 De UML van IMBRT staat op http://register.geostandaarden.nl/informatiemodel/imbrt/1.2.1
 De XSD's van TOP10NL en TOP10NL_Objecthistorie staan op http://register.geostandaarden.nl/gmlapplicatieschema/top10nl/1.2.0. 
+De waardelijsten van TOP10NL 1.2.0 staan op http://register.geostandaarden.nl/waardelijst/top10nl/20140901. 
