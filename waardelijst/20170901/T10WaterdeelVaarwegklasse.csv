@@ -1,11 +1,11 @@
-Code;Waarde;Omschrijving;Inwinningscriteria;DatumVanaf;DatumTot
-1;0;Vaarweg geschikt voor kleinere vaartuigen en recreatievaart (laadvermogen < 250 ton);;01-09-2014;
-2;I;Vaarweg geschikt voor Spits (laadvermogen 250 - 400 ton);;01-09-2014;
-3;II;Vaarweg geschikt voor Kempenaar (laadvermogen 400 - 650 ton );;01-09-2014;
-4;III;Vaarweg geschikt voor Dortmund-Eemskanaalschip (laadvermogen 650 - 1000 ton);;01-09-2014;
-5;IV;Vaarweg geschikt voor Rijn-Hernekanaalschip (laadvermogen 1000 - 1500 ton) en voor 1-baksduwstel (laadvermogen 1250-1450 ton);;01-09-2014;
-6;Va;Vaarweg geschikt voor Groot Rijnschip (laadvermogen 1500 - 3000 ton) en voor  1-baksduwstel (laadvermogen 1600-3000 ton);;01-09-2014;
-7;Vb;Vaarweg geschikt voor 2-baksduwstel - achter elkaar (laadvermogen 3200  - 6000 ton);;01-09-2014;
-8;VIa;Vaarweg geschikt voor 2-baksduwstel - naast elkaar (laadvermogen 3200 - 6000 ton);;01-09-2014;
-9;VIb;Vaarweg geschikt voor 4-baksduwstel - 2 naast elkaar, 2 achter elkaar (laadvermogen 6000 - 12000 ton);;01-09-2014;
-10;VIc;Vaarweg geschikt voor 6-baksduwstel - 2 naast elkaar, 3 achter elkaar (laadvermogen 9600 - 18000 ton);;01-09-2014;
+"Code","Waarde","Omschrijving","Inwinningscriteria","DatumVanaf","DatumTot"
+"1","0","Vaarweg geschikt voor kleinere vaartuigen en recreatievaart (laadvermogen < 250 ton)","","01-09-2014",""
+"2","I","Vaarweg geschikt voor Spits (laadvermogen 250 - 400 ton)","","01-09-2014",""
+"3","II","Vaarweg geschikt voor Kempenaar (laadvermogen 400 - 650 ton )","","01-09-2014",""
+"4","III","Vaarweg geschikt voor Dortmund-Eemskanaalschip (laadvermogen 650 - 1000 ton)","","01-09-2014",""
+"5","IV","Vaarweg geschikt voor Rijn-Hernekanaalschip (laadvermogen 1000 - 1500 ton) en voor 1-baksduwstel (laadvermogen 1250-1450 ton)","","01-09-2014",""
+"6","Va","Vaarweg geschikt voor Groot Rijnschip (laadvermogen 1500 - 3000 ton) en voor  1-baksduwstel (laadvermogen 1600-3000 ton)","","01-09-2014",""
+"7","Vb","Vaarweg geschikt voor 2-baksduwstel - achter elkaar (laadvermogen 3200  - 6000 ton)","","01-09-2014",""
+"8","VIa","Vaarweg geschikt voor 2-baksduwstel - naast elkaar (laadvermogen 3200 - 6000 ton)","","01-09-2014",""
+"9","VIb","Vaarweg geschikt voor 4-baksduwstel - 2 naast elkaar, 2 achter elkaar (laadvermogen 6000 - 12000 ton)","","01-09-2014",""
+"10","VIc","Vaarweg geschikt voor 6-baksduwstel - 2 naast elkaar, 3 achter elkaar (laadvermogen 9600 - 18000 ton)","","01-09-2014",""

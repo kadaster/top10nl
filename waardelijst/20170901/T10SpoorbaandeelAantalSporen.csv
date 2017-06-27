@@ -1,4 +1,4 @@
-Code;Waarde;Omschrijving;Inwinningscriteria;DatumVanaf;DatumTot
-1;enkel;Spoorbaan bestaande uit één spoor;;01-09-2014;
-2;dubbel;Spoorbaan bestaande uit twee sporen;;01-09-2014;
-3;meervoudig;Spoorbaan bestaande uit meer dan twee sporen;;01-09-2014;
+"Code","Waarde","Omschrijving","Inwinningscriteria","DatumVanaf","DatumTot"
+"1","enkel","Spoorbaan bestaande uit één spoor","","01-09-2014",""
+"2","dubbel","Spoorbaan bestaande uit twee sporen","","01-09-2014",""
+"3","meervoudig","Spoorbaan bestaande uit meer dan twee sporen","","01-09-2014",""

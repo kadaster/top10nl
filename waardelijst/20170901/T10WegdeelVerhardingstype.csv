@@ -1,5 +1,5 @@
-Code;Waarde;Omschrijving;Inwinningscriteria;DatumVanaf;DatumTot
-1;verhard;Een weg met een egale verharding (asfalt, beton, klinkers, tegels, keien, etc.).;;01-09-2014;
-2;half verhard;Een weg waarop de verharding slechts gedeeltelijk is aangebracht (als twee banen met klinkers, beton, tegels,etc.) of het rijvlak is verbeterd met grind of sintels.;;01-09-2014;
-3;onverhard;Een weg zonder enige vorm van kunstmatige verharding, dan wel een weg hier en daar opgevuld met puin.;;01-09-2014;
-4;onbekend;Het verhardingstype van de weg is onbekend;;01-09-2014;
+"Code","Waarde","Omschrijving","Inwinningscriteria","DatumVanaf","DatumTot"
+"1","verhard","Een weg met een egale verharding (asfalt, beton, klinkers, tegels, keien, etc.).","","01-09-2014",""
+"2","half verhard","Een weg waarop de verharding slechts gedeeltelijk is aangebracht (als twee banen met klinkers, beton, tegels,etc.) of het rijvlak is verbeterd met grind of sintels.","","01-09-2014",""
+"3","onverhard","Een weg zonder enige vorm van kunstmatige verharding, dan wel een weg hier en daar opgevuld met puin.","","01-09-2014",""
+"4","onbekend","Het verhardingstype van de weg is onbekend","","01-09-2014",""

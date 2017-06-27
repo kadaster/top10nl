@@ -1,5 +1,5 @@
-Code;Waarde;Omschrijving;Inwinningscriteria;DatumVanaf;DatumTot
-1;kwaliteitsverbetering;Aanpassing van het object als gevolg van een kwaliteitsactie;;01-09-2014;
-2;werkelijke verandering;Aanpassing van het object als gevolg van wijzigingen van het object in het terrein.;;01-09-2014;
-3;modelwijziging;Aanpassing van het object als gevolg van wijzigingen in het datamodel.;;01-09-2014;
-4;andere bron;Aanpassing van het object als gevolg van gebruik van andere bronnen.;;01-09-2014;
+"Code","Waarde","Omschrijving","Inwinningscriteria","DatumVanaf","DatumTot"
+"1","kwaliteitsverbetering","Aanpassing van het object als gevolg van een kwaliteitsactie","","01-09-2014",""
+"2","werkelijke verandering","Aanpassing van het object als gevolg van wijzigingen van het object in het terrein.","","01-09-2014",""
+"3","modelwijziging","Aanpassing van het object als gevolg van wijzigingen in het datamodel.","","01-09-2014",""
+"4","andere bron","Aanpassing van het object als gevolg van gebruik van andere bronnen.","","01-09-2014",""

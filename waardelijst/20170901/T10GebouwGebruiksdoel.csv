@@ -1,12 +1,12 @@
-Code;Waarde;Omschrijving;Inwinningscriteria;DatumVanaf;DatumTot
-1;bijeenkomstfunctie;Gebouw waar bijeenkomsten voor personen kunnnen worden georganiseerd.;;01-09-2014;
-2;celfunctie;Gebouw waar personen in bewaring kunnen worden gesteld.;;01-09-2014;
-3;gezondheidszorgfunctie;Gebouw waar lichamelijke of geestelijke gezondheidszorg kan worden verleend.;;01-09-2014;
-4;industriefunctie;Gebouw waar industriële activiteiten plaatsvinden.;;01-09-2014;
-5;kantoorfunctie;Gebouw waar administratieve handelingen plaatsvinden.;;01-09-2014;
-6;logiesfunctie;Gebouw waar de mogelijkheid aanwezig is om overnachtingsmogelijkheden aan te bieden.;;01-09-2014;
-7;onderwijsfunctie;Gebouw waar onderwijsfaciliteiten worden aangeboden.;;01-09-2014;
-8;sportfunctie;Gebouw waar sportieve activiteiten kunnen worden ontplooid.;;01-09-2014;
-9;winkelfunctie;Gebouw waar allerhanden roerende of onroerende goederen al dan niet tegen betaling worden aangeboden.;;01-09-2014;
-10;woonfunctie;Gebouw geschikt voor permanente bewoning;;01-09-2014;
-11;overige gebruiksfunctie;Indien geen van bovengenoemde functies van toepassing is.;;01-09-2014;
+"Code","Waarde","Omschrijving","Inwinningscriteria","DatumVanaf","DatumTot"
+"1","bijeenkomstfunctie","Gebouw waar bijeenkomsten voor personen kunnnen worden georganiseerd.","","01-09-2014",""
+"2","celfunctie","Gebouw waar personen in bewaring kunnen worden gesteld.","","01-09-2014",""
+"3","gezondheidszorgfunctie","Gebouw waar lichamelijke of geestelijke gezondheidszorg kan worden verleend.","","01-09-2014",""
+"4","industriefunctie","Gebouw waar industriële activiteiten plaatsvinden.","","01-09-2014",""
+"5","kantoorfunctie","Gebouw waar administratieve handelingen plaatsvinden.","","01-09-2014",""
+"6","logiesfunctie","Gebouw waar de mogelijkheid aanwezig is om overnachtingsmogelijkheden aan te bieden.","","01-09-2014",""
+"7","onderwijsfunctie","Gebouw waar onderwijsfaciliteiten worden aangeboden.","","01-09-2014",""
+"8","sportfunctie","Gebouw waar sportieve activiteiten kunnen worden ontplooid.","","01-09-2014",""
+"9","winkelfunctie","Gebouw waar allerhanden roerende of onroerende goederen al dan niet tegen betaling worden aangeboden.","","01-09-2014",""
+"10","woonfunctie","Gebouw geschikt voor permanente bewoning","","01-09-2014",""
+"11","overige gebruiksfunctie","Indien geen van bovengenoemde functies van toepassing is.","","01-09-2014",""

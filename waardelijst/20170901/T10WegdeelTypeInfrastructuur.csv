@@ -1,4 +1,4 @@
-Code;Waarde;Omschrijving;Inwinningscriteria;DatumVanaf;DatumTot
-1;verbinding;Wegdeel waar maximaal twee hartlijnen van andere wegdelen op aansluiten.;;01-09-2014;
-2;kruising;Gelijkvloerse kruising (wegdeel waar drie of meer hartlijnen van verbindingen op elkaar aansluiten).;;01-09-2014;
-3;overig verkeersgebied;Een wegdeel anders dan een verbinding of kruising.;;01-09-2014;
+"Code","Waarde","Omschrijving","Inwinningscriteria","DatumVanaf","DatumTot"
+"1","verbinding","Wegdeel waar maximaal twee hartlijnen van andere wegdelen op aansluiten.","","01-09-2014",""
+"2","kruising","Gelijkvloerse kruising (wegdeel waar drie of meer hartlijnen van verbindingen op elkaar aansluiten).","","01-09-2014",""
+"3","overig verkeersgebied","Een wegdeel anders dan een verbinding of kruising.","","01-09-2014",""
