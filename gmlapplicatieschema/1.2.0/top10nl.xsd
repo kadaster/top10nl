@@ -196,14 +196,14 @@ NOTE Onder de klasse Hoogte vallen de hoogte- en dieptelijnen alsmede hoogte- en
     <complexContent>
       <extension base="top10nl:_Top10nlObjectType">
         <sequence>
-          <element name="typeHoogte" type="gml:CodeType">
+          <element name="geometrie" type="brt:BRTLijnOfPuntPropertyType">
             <annotation>
-              <documentation>Het soort hoogte object, bijv. hoogtlijn</documentation>
+              <documentation>De lijn- of puntgeometrie van een hoogte object</documentation>
             </annotation>
           </element>
           <element name="hoogte" type="double">
             <annotation>
-              <documentation>Hoogte van het object t.o.v. NAP in meters met een nauwkeurigheid van 1 decimeter. / De diepte van het water</documentation>
+              <documentation>Hoogte van het object t.o.v. het opgegeven referentievlak in meters met een nauwkeurigheid van 1 decimeter. / De diepte van het water t.o.v. het opgegeven referentievlak in meters met een nauwkeurigheid van 1 decimeter.</documentation>
             </annotation>
           </element>
           <element name="referentievlak" type="gml:CodeType">
@@ -211,9 +211,9 @@ NOTE Onder de klasse Hoogte vallen de hoogte- en dieptelijnen alsmede hoogte- en
               <documentation>Referentievlak ten opzichte waarvan de hoogten gedefinieerd zijn.</documentation>
             </annotation>
           </element>
-          <element name="geometrie" type="brt:BRTLijnOfPuntPropertyType">
+          <element name="typeHoogte" type="gml:CodeType">
             <annotation>
-              <documentation>De lijn- of puntgeometrie van een hoogte object</documentation>
+              <documentation>Het soort hoogte object, bijv. hoogtelijn ,dieptelijn.</documentation>
             </annotation>
           </element>
         </sequence>
