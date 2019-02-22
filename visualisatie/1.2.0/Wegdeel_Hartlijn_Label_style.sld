@@ -13,6 +13,7 @@
 			<Title>Wegdeel hartlijn label style</Title>
 			<FeatureTypeStyle>
 				<Rule>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>aantalrijstroken</ogc:PropertyName>
@@ -53,6 +54,7 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>aantalrijstroken</ogc:PropertyName>
@@ -93,6 +95,7 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>awegnummer</ogc:PropertyName>
@@ -133,6 +136,7 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>nwegnummer</ogc:PropertyName>
@@ -173,6 +177,7 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>ewegnummer</ogc:PropertyName>
@@ -213,6 +218,7 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>knooppuntnaam</ogc:PropertyName>

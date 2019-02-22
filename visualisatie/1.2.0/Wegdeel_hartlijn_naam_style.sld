@@ -13,13 +13,25 @@
 			<Title>Wegdeel hartlijn naam style</Title>
 			<FeatureTypeStyle>
 				<Rule>
+					<Name>hoofdwegen</Name>
+					<Title>hoofdwegen</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>typeweg</ogc:PropertyName>
+								<ogc:Literal>hoofdweg</ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>				
+					<MaxScaleDenominator>20000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naam</ogc:PropertyName>
 						</Label>
 						<Font>
 							<CssParameter name="font-family">Liberation Sans</CssParameter>
-							<CssParameter name="font-size">17</CssParameter>
+							<CssParameter name="font-size">14</CssParameter>
 						</Font>
 						<LabelPlacement>
 							<LinePlacement>
@@ -33,6 +45,138 @@
 						<VendorOption name="group">yes</VendorOption>
 					</TextSymbolizer>
 				</Rule>
+				<Rule>
+					<Name>regionale_wegen</Name>
+					<Title>regionale wegen</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>typeweg</ogc:PropertyName>
+								<ogc:Literal>regionale weg</ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>				
+					<MaxScaleDenominator>10000</MaxScaleDenominator>
+					<TextSymbolizer>
+						<Label>
+							<ogc:PropertyName>naam</ogc:PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Liberation Sans</CssParameter>
+							<CssParameter name="font-size">14</CssParameter>
+						</Font>
+						<LabelPlacement>
+							<LinePlacement>
+								<PerpendicularOffset>10</PerpendicularOffset>
+							</LinePlacement>
+						</LabelPlacement>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+						</Fill>
+						<VendorOption name="followLine">true</VendorOption>
+						<VendorOption name="group">yes</VendorOption>
+					</TextSymbolizer>
+				</Rule>				
+				<Rule>
+					<Name>lokale_wegen</Name>
+					<Title>lokale wegen</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>typeweg</ogc:PropertyName>
+								<ogc:Literal>lokale weg</ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>				
+					<MaxScaleDenominator>5000</MaxScaleDenominator>
+					<TextSymbolizer>
+						<Label>
+							<ogc:PropertyName>naam</ogc:PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Liberation Sans</CssParameter>
+							<CssParameter name="font-size">14</CssParameter>
+						</Font>
+						<LabelPlacement>
+							<LinePlacement>
+								<PerpendicularOffset>10</PerpendicularOffset>
+							</LinePlacement>
+						</LabelPlacement>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+						</Fill>
+						<VendorOption name="followLine">true</VendorOption>
+						<VendorOption name="group">yes</VendorOption>
+					</TextSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>straten</Name>
+					<Title>straten</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>typeweg</ogc:PropertyName>
+								<ogc:Literal>straat</ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>				
+					<MaxScaleDenominator>3000</MaxScaleDenominator>
+					<TextSymbolizer>
+						<Label>
+							<ogc:PropertyName>naam</ogc:PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Liberation Sans</CssParameter>
+							<CssParameter name="font-size">14</CssParameter>
+						</Font>
+						<LabelPlacement>
+							<LinePlacement>
+								<PerpendicularOffset>10</PerpendicularOffset>
+							</LinePlacement>
+						</LabelPlacement>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+						</Fill>
+						<VendorOption name="followLine">true</VendorOption>
+						<VendorOption name="group">yes</VendorOption>
+					</TextSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>overige_wegen</Name>
+					<Title>overige_wegen</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>typeweg</ogc:PropertyName>
+								<ogc:Literal>overig</ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>				
+					<MaxScaleDenominator>2000</MaxScaleDenominator>
+					<TextSymbolizer>
+						<Label>
+							<ogc:PropertyName>naam</ogc:PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Liberation Sans</CssParameter>
+							<CssParameter name="font-size">14</CssParameter>
+						</Font>
+						<LabelPlacement>
+							<LinePlacement>
+								<PerpendicularOffset>10</PerpendicularOffset>
+							</LinePlacement>
+						</LabelPlacement>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+						</Fill>
+						<VendorOption name="followLine">true</VendorOption>
+						<VendorOption name="group">yes</VendorOption>
+					</TextSymbolizer>
+				</Rule>				
 			</FeatureTypeStyle>
 		</UserStyle>
 	</NamedLayer>

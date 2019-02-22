@@ -13,6 +13,23 @@
 			<Title>Gebouw vlak style</Title>
 			<FeatureTypeStyle>
 				<Rule>
+					<Name>dok</Name>
+					<Title>dok</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:Literal><![CDATA[13200]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PolygonSymbolizer>
+						<Stroke>
+							<CssParameter name="stroke">#FF0000</CssParameter>
+							<CssParameter name="stroke-width">0.4</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
 					<Name>hoogbouw</Name>
 					<Title>hoogbouw</Title>
 					<ogc:Filter>
@@ -21,6 +38,7 @@
 							<ogc:Literal><![CDATA[13100]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#A80000</CssParameter>
@@ -40,6 +58,7 @@
 							<ogc:Literal><![CDATA[13300]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B2B2</CssParameter>
@@ -59,26 +78,11 @@
 							<ogc:Literal><![CDATA[13400]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCB366</CssParameter>
 						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#FF0000</CssParameter>
-							<CssParameter name="stroke-width">0.4</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>dok</Name>
-					<Title>dok</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[13200]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#FF0000</CssParameter>
 							<CssParameter name="stroke-width">0.4</CssParameter>
@@ -94,6 +98,7 @@
 							<ogc:Literal><![CDATA[13000]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#4E4E4E</CssParameter>

@@ -13,14 +13,20 @@
 			<Title>Wegdeel lijn style</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Name>10740</Name>
-					<Title>10740</Title>
+					<Name>fietspad</Name>
+					<Title>fietspad</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10740]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10740]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10741]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10742]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#828282</CssParameter>
@@ -39,114 +45,31 @@
 					</LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>10741</Name>
-					<Title>10741</Title>
+					<Name>pont / veer</Name>
+					<Title>pont / veer</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10741]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10800]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10810]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10820]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10830]]></ogc:Literal>								
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<LineSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#828282</CssParameter>
-							<CssParameter name="stroke-width">3</CssParameter>
-							<CssParameter name="stroke-linecap">butt</CssParameter>
-							<CssParameter name="stroke-linejoin">round</CssParameter>
-						</Stroke>
-					</LineSymbolizer>
-					<LineSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#FFD37F</CssParameter>
-							<CssParameter name="stroke-width">1.5</CssParameter>
-							<CssParameter name="stroke-linecap">butt</CssParameter>
-							<CssParameter name="stroke-linejoin">bevel</CssParameter>
-						</Stroke>
-					</LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10742</Name>
-					<Title>10742</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10742]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<LineSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#828282</CssParameter>
-							<CssParameter name="stroke-width">3</CssParameter>
-							<CssParameter name="stroke-linecap">butt</CssParameter>
-							<CssParameter name="stroke-linejoin">round</CssParameter>
-						</Stroke>
-					</LineSymbolizer>
-					<LineSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#FFD37F</CssParameter>
-							<CssParameter name="stroke-width">1.5</CssParameter>
-							<CssParameter name="stroke-linecap">butt</CssParameter>
-							<CssParameter name="stroke-linejoin">bevel</CssParameter>
-						</Stroke>
-					</LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10750</Name>
-					<Title>10750</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10750]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
 							<CssParameter name="stroke-width">1</CssParameter>
-							<CssParameter name="stroke-dasharray">3 6</CssParameter>
+							<CssParameter name="stroke-dasharray">3 4</CssParameter>
 							<CssParameter name="stroke-linecap">butt</CssParameter>
 							<CssParameter name="stroke-linejoin">mitre</CssParameter>
 						</Stroke>
 					</LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10751</Name>
-					<Title>10751</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10751]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<LineSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-width">1</CssParameter>
-							<CssParameter name="stroke-dasharray">3 6</CssParameter>
-							<CssParameter name="stroke-linecap">butt</CssParameter>
-							<CssParameter name="stroke-linejoin">mitre</CssParameter>
-						</Stroke>
-					</LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10752</Name>
-					<Title>10752</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10752]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<LineSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-width">1</CssParameter>
-							<CssParameter name="stroke-dasharray">3 6</CssParameter>
-							<CssParameter name="stroke-linecap">butt</CssParameter>
-							<CssParameter name="stroke-linejoin">mitre</CssParameter>
-						</Stroke>
-					</LineSymbolizer>
-				</Rule>
+				</Rule>				
 				<Rule>
 					<Name>ruiterpad</Name>
 					<Title>ruiterpad</Title>
@@ -156,6 +79,7 @@
 							<ogc:Literal><![CDATA[10770]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#732600</CssParameter>
@@ -187,81 +111,30 @@
 					</LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>10800</Name>
-					<Title>10800</Title>
+					<Name>voetpad</Name>
+					<Title>voetpad</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10800]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10750]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10751]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10752]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
 							<CssParameter name="stroke-width">1</CssParameter>
-							<CssParameter name="stroke-dasharray">3 4</CssParameter>
+							<CssParameter name="stroke-dasharray">3 6</CssParameter>
 							<CssParameter name="stroke-linecap">butt</CssParameter>
 							<CssParameter name="stroke-linejoin">mitre</CssParameter>
 						</Stroke>
 					</LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10810</Name>
-					<Title>10810</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10810]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<LineSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-width">1</CssParameter>
-							<CssParameter name="stroke-dasharray">3 4</CssParameter>
-							<CssParameter name="stroke-linecap">butt</CssParameter>
-							<CssParameter name="stroke-linejoin">mitre</CssParameter>
-						</Stroke>
-					</LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10820</Name>
-					<Title>10820</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10820]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<LineSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-width">1</CssParameter>
-							<CssParameter name="stroke-dasharray">3 4</CssParameter>
-							<CssParameter name="stroke-linecap">butt</CssParameter>
-							<CssParameter name="stroke-linejoin">mitre</CssParameter>
-						</Stroke>
-					</LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10830</Name>
-					<Title>10830</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10830]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<LineSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#000000</CssParameter>
-							<CssParameter name="stroke-width">1</CssParameter>
-							<CssParameter name="stroke-dasharray">3 4</CssParameter>
-							<CssParameter name="stroke-linecap">butt</CssParameter>
-							<CssParameter name="stroke-linejoin">mitre</CssParameter>
-						</Stroke>
-					</LineSymbolizer>
-				</Rule>
+				</Rule>				
 			</FeatureTypeStyle>
 		</UserStyle>
 	</NamedLayer>

@@ -7,28 +7,30 @@
 	xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
 	version="1.0.0">
 	<NamedLayer>
-		<Name>Registratief_gebied_vlak_Land</Name>
+		<Name>Plaats_punt</Name>
 		<UserStyle>
-			<Name>Registratief_gebied_vlak_Land_style</Name>
-			<Title>Registratief gebied vlak Land style</Title>
+			<Name>Plaats_punt_style</Name>
+			<Title>Plaats punt</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Name>land</Name>
-					<Title>land</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[17000]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<PolygonSymbolizer>
-						<Stroke>
-							<CssParameter name="stroke">#FFFF00</CssParameter>
-							<CssParameter name="stroke-width">2</CssParameter>
-							<CssParameter name="stroke-linecap">round</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>circle</WellKnownName>
+								<Fill>
+									<CssParameter name="fill-opacity">0</CssParameter>
+									<CssParameter name="fill">#F0F0F0</CssParameter>
+								</Fill>
+								<Stroke>
+									<CssParameter name="stroke">#800080</CssParameter>
+									<CssParameter name="stroke-width">2</CssParameter>
+								</Stroke>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>12</Size>
+						</Graphic>
+					</PointSymbolizer>
 				</Rule>
 			</FeatureTypeStyle>
 		</UserStyle>

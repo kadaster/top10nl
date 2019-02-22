@@ -13,74 +13,20 @@
 			<Title>Terrein vlak style</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Name>14203</Name>
-					<Title>14203</Title>
+					<Name>Aanlegsteiger</Name>
+					<Title>Aanlegsteiger</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14203]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14000]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14002]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14003]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14202</Name>
-					<Title>14202</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14202]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14103</Name>
-					<Title>14103</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14103]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#CCCCCC</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14213</Name>
-					<Title>14213</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14213]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFF73</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14003</Name>
-					<Title>14003</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14003]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#686868</CssParameter>
@@ -88,74 +34,20 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14102</Name>
-					<Title>14102</Title>
+					<Name>Akkerland</Name>
+					<Title>Akkerland</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14102]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14010]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14012]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14013]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#CCCCCC</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14113</Name>
-					<Title>14113</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14113]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#CCCCCC</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14212</Name>
-					<Title>14212</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14212]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFF73</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14002</Name>
-					<Title>14002</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14002]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#686868</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14013</Name>
-					<Title>14013</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14013]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFDE</CssParameter>
@@ -163,76 +55,20 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14112</Name>
-					<Title>14112</Title>
+					<Name>Basaltblokken, steenglooiing</Name>
+					<Title>Basaltblokken, steenglooiing</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14112]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14020]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14022]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14023]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#CCCCCC</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14123</Name>
-					<Title>14123</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14123]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFDE</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#36</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#000000</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14012</Name>
-					<Title>14012</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14012]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFDE</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14023</Name>
-					<Title>14023</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14023]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<GraphicFill>
@@ -299,195 +135,41 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14122</Name>
-					<Title>14122</Title>
+					<Name>Bebouwd gebied</Name>
+					<Title>Bebouwd gebied</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14122]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14030]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14032]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14033]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFDE</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#36</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#000000</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14133</Name>
-					<Title>14133</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14133]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#C9EB70</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14022</Name>
-					<Title>14022</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14022]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>shape://horline</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#6E6E6E</CssParameter>
-										</Fill>
-										<Stroke>
-											<CssParameter name="stroke">#6E6E6E</CssParameter>
-											<CssParameter name="stroke-width">0.1</CssParameter>
-										</Stroke>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>6</Size>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#6E6E6E</CssParameter>
-							<CssParameter name="stroke-width">0.1</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>shape://slash</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#6E6E6E</CssParameter>
-										</Fill>
-										<Stroke>
-											<CssParameter name="stroke">#6E6E6E</CssParameter>
-											<CssParameter name="stroke-width">0.1</CssParameter>
-										</Stroke>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>4</Size>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>shape://backslash</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#6E6E6E</CssParameter>
-										</Fill>
-										<Stroke>
-											<CssParameter name="stroke">#6E6E6E</CssParameter>
-											<CssParameter name="stroke-width">0.1</CssParameter>
-										</Stroke>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>4</Size>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14033</Name>
-					<Title>14033</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14033]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#9C9C9C</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
-				</Rule>
+				</Rule>				
 				<Rule>
-					<Name>14132</Name>
-					<Title>14132</Title>
+					<Name>Boomgaard</Name>
+					<Title>Boomgaard</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14132]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14040]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14042]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14043]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#C9EB70</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14143</Name>
-					<Title>14143</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14143]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FCB3FB</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14032</Name>
-					<Title>14032</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14032]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#9C9C9C</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14043</Name>
-					<Title>14043</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14043]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#C9EB70</CssParameter>
@@ -512,61 +194,20 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14142</Name>
-					<Title>14142</Title>
+					<Name>Boomkwekerij</Name>
+					<Title>Boomkwekerij</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14142]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14050]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14052]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14053]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FCB3FB</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14042</Name>
-					<Title>14042</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14042]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#C9EB70</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#36</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#000000</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14053</Name>
-					<Title>14053</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14053]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFDE</CssParameter>
@@ -591,782 +232,41 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14163</Name>
-					<Title>14163</Title>
+					<Name>Braakliggend</Name>
+					<Title>Braakliggend</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14163]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14200]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14203]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14202]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFFF</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
-				</Rule>
+				</Rule>				
 				<Rule>
-					<Name>14052</Name>
-					<Title>14052</Title>
+					<Name>Dodenakker</Name>
+					<Title>Dodenakker</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14052]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14100]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14102]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14103]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFDE</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#89</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#016300</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14063</Name>
-					<Title>14063</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14063]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#61</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>6</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14162</Name>
-					<Title>14162</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14162]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14173</Name>
-					<Title>14173</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14173]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#C9EB70</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#79</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#000000</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14062</Name>
-					<Title>14062</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14062]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#61</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>6</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14073</Name>
-					<Title>14073</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14073]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://Wingdings#108</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>3</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14172</Name>
-					<Title>14172</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14172]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#C9EB70</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#79</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#000000</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14183</Name>
-					<Title>14183</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14183]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14072</Name>
-					<Title>14072</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14072]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://Wingdings#108</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>3</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14083</Name>
-					<Title>14083</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14083]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#58</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14182</Name>
-					<Title>14182</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14182]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14193</Name>
-					<Title>14193</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14193]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFF73</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14082</Name>
-					<Title>14082</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14082]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#58</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14093</Name>
-					<Title>14093</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14093]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#61</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14192</Name>
-					<Title>14192</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14192]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFF73</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14092</Name>
-					<Title>14092</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14092]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#61</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14000</Name>
-					<Title>14000</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14000]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#686868</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14010</Name>
-					<Title>14010</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14010]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFDE</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14020</Name>
-					<Title>14020</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14020]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>shape://horline</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#6E6E6E</CssParameter>
-										</Fill>
-										<Stroke>
-											<CssParameter name="stroke">#6E6E6E</CssParameter>
-											<CssParameter name="stroke-width">0.1</CssParameter>
-										</Stroke>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>6</Size>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#6E6E6E</CssParameter>
-							<CssParameter name="stroke-width">0.1</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>shape://slash</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#6E6E6E</CssParameter>
-										</Fill>
-										<Stroke>
-											<CssParameter name="stroke">#6E6E6E</CssParameter>
-											<CssParameter name="stroke-width">0.1</CssParameter>
-										</Stroke>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>4</Size>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>shape://backslash</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#6E6E6E</CssParameter>
-										</Fill>
-										<Stroke>
-											<CssParameter name="stroke">#6E6E6E</CssParameter>
-											<CssParameter name="stroke-width">0.1</CssParameter>
-										</Stroke>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>4</Size>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14030</Name>
-					<Title>14030</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14030]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#9C9C9C</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14040</Name>
-					<Title>14040</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14040]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#C9EB70</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#36</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#000000</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14050</Name>
-					<Title>14050</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14050]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFDE</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#89</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#016300</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14060</Name>
-					<Title>14060</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14060]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#61</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>6</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14070</Name>
-					<Title>14070</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14070]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://Wingdings#108</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>3</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14080</Name>
-					<Title>14080</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14080]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#58</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14090</Name>
-					<Title>14090</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14090]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#8CA800</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>ttf://ESRI ArcGIS TDN#61</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#0084A8</CssParameter>
-										</Fill>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>7</Size>
-									<Rotation>0</Rotation>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14200</Name>
-					<Title>14200</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14200]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>14100</Name>
-					<Title>14100</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14100]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCCCC</CssParameter>
@@ -1374,29 +274,41 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14110</Name>
-					<Title>14110</Title>
+					<Name>Dodenakker met bos</Name>
+					<Title>Dodenakker met bos</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14110]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14110]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14112]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14113]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCCCC</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
-				</Rule>
+				</Rule>				
 				<Rule>
-					<Name>14210</Name>
-					<Title>14210</Title>
+					<Name>Duin</Name>
+					<Title>Duin</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14210]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14210]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14212]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14213]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFF73</CssParameter>
@@ -1404,14 +316,20 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14120</Name>
-					<Title>14120</Title>
+					<Name>Fruitkwekerij</Name>
+					<Title>Fruitkwekerij</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14120]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14120]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14122]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14123]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFDE</CssParameter>
@@ -1436,14 +354,58 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14130</Name>
-					<Title>14130</Title>
+					<Name>Gemengd bos</Name>
+					<Title>Gemengd bos</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14130]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14060]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14062]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14063]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#8CA800</CssParameter>
+						</Fill>
+					</PolygonSymbolizer>
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>ttf://ESRI ArcGIS TDN#61</WellKnownName>
+										<Fill>
+											<CssParameter name="fill">#0084A8</CssParameter>
+										</Fill>
+									</Mark>
+									<Opacity>1</Opacity>
+									<Size>6</Size>
+									<Rotation>0</Rotation>
+								</Graphic>
+							</GraphicFill>
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>				
+				<Rule>
+					<Name>Grasland</Name>
+					<Title>Grasland</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14130]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14132]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14133]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#C9EB70</CssParameter>
@@ -1451,14 +413,58 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14140</Name>
-					<Title>14140</Title>
+					<Name>Griend</Name>
+					<Title>Griend</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14140]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14070]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14072]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14073]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#8CA800</CssParameter>
+						</Fill>
+					</PolygonSymbolizer>
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>ttf://Wingdings#108</WellKnownName>
+										<Fill>
+											<CssParameter name="fill">#0084A8</CssParameter>
+										</Fill>
+									</Mark>
+									<Opacity>1</Opacity>
+									<Size>3</Size>
+									<Rotation>0</Rotation>
+								</Graphic>
+							</GraphicFill>
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>				
+				<Rule>
+					<Name>Heide</Name>
+					<Title>Heide</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14140]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14142]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14143]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FCB3FB</CssParameter>
@@ -1466,14 +472,96 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14160</Name>
-					<Title>14160</Title>
+					<Name>Loofbos</Name>
+					<Title>Loofbos</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14160]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14080]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14082]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14083]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#8CA800</CssParameter>
+						</Fill>
+					</PolygonSymbolizer>
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>ttf://ESRI ArcGIS TDN#58</WellKnownName>
+										<Fill>
+											<CssParameter name="fill">#0084A8</CssParameter>
+										</Fill>
+									</Mark>
+									<Opacity>1</Opacity>
+									<Size>7</Size>
+									<Rotation>0</Rotation>
+								</Graphic>
+							</GraphicFill>
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>Naaldbos</Name>
+					<Title>Naaldbos</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14090]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14092]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14093]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#8CA800</CssParameter>
+						</Fill>
+					</PolygonSymbolizer>
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>ttf://ESRI ArcGIS TDN#61</WellKnownName>
+										<Fill>
+											<CssParameter name="fill">#0084A8</CssParameter>
+										</Fill>
+									</Mark>
+									<Opacity>1</Opacity>
+									<Size>7</Size>
+									<Rotation>0</Rotation>
+								</Graphic>
+							</GraphicFill>
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>				
+				<Rule>
+					<Name>Overig</Name>
+					<Title>Overig</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14160]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14162]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14163]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFFF</CssParameter>
@@ -1481,14 +569,20 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14170</Name>
-					<Title>14170</Title>
+					<Name>Populieren</Name>
+					<Title>Populieren</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14170]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14170]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14172]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14173]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#C9EB70</CssParameter>
@@ -1513,14 +607,20 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14180</Name>
-					<Title>14180</Title>
+					<Name>Spoorbaanlichaam</Name>
+					<Title>Spoorbaanlichaam</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14180]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14180]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14182]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14183]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFFF</CssParameter>
@@ -1528,14 +628,20 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>14190</Name>
-					<Title>14190</Title>
+					<Name>Zand</Name>
+					<Title>Zand</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[14190]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[14190]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14192]]></ogc:Literal>
+								<ogc:Literal><![CDATA[14193]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFF73</CssParameter>

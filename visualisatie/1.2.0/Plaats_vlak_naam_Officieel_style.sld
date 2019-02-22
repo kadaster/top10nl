@@ -13,146 +13,6 @@
 			<Title>Plaats vlak naam Officieel style</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Name>buurtschap</Name>
-					<Title>buurtschap</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal>18450</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<TextSymbolizer>
-						<Label>
-							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
-						</Label>
-						<Font>
-							<CssParameter name="font-family">Liberation Sans</CssParameter>
-							<CssParameter name="font-size">21</CssParameter>
-						</Font>
-						<LabelPlacement>
-							<PointPlacement>
-								<AnchorPoint>
-									<AnchorPointX>0.5</AnchorPointX>
-									<AnchorPointY>0.5</AnchorPointY>
-								</AnchorPoint>
-							</PointPlacement>
-						</LabelPlacement>
-						<Fill>
-							<CssParameter name="fill">#686868</CssParameter>
-						</Fill>
-					</TextSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>gehucht</Name>
-					<Title>gehucht</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal>18440</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<TextSymbolizer>
-						<Label>
-							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
-						</Label>
-						<Font>
-							<CssParameter name="font-family">Liberation Sans</CssParameter>
-							<CssParameter name="font-size">27</CssParameter>
-						</Font>
-						<LabelPlacement>
-							<PointPlacement>
-								<AnchorPoint>
-									<AnchorPointX>0.5</AnchorPointX>
-									<AnchorPointY>0.5</AnchorPointY>
-								</AnchorPoint>
-							</PointPlacement>
-						</LabelPlacement>
-						<Halo>
-							<Radius>1</Radius>
-							<Fill>
-								<CssParameter name="fill">#FFFFFF</CssParameter>
-							</Fill>
-						</Halo>
-						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-						</Fill>
-					</TextSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>stadsdeel</Name>
-					<Title>stadsdeel</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal>18500</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<TextSymbolizer>
-						<Label>
-							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
-						</Label>
-						<Font>
-							<CssParameter name="font-family">Liberation Sans</CssParameter>
-							<CssParameter name="font-size">27</CssParameter>
-							<CssParameter name="font-style">italic</CssParameter>
-						</Font>
-						<LabelPlacement>
-							<PointPlacement>
-								<AnchorPoint>
-									<AnchorPointX>0.5</AnchorPointX>
-									<AnchorPointY>0.5</AnchorPointY>
-								</AnchorPoint>
-							</PointPlacement>
-						</LabelPlacement>
-						<Halo>
-							<Radius>1</Radius>
-							<Fill>
-								<CssParameter name="fill">#FFFFFF</CssParameter>
-							</Fill>
-						</Halo>
-						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-						</Fill>
-					</TextSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>wijk</Name>
-					<Title>wijk</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal>18510</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<TextSymbolizer>
-						<Label>
-							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
-						</Label>
-						<Font>
-							<CssParameter name="font-family">Liberation Sans</CssParameter>
-							<CssParameter name="font-size">27</CssParameter>
-							<CssParameter name="font-style">italic</CssParameter>
-						</Font>
-						<LabelPlacement>
-							<PointPlacement>
-								<AnchorPoint>
-									<AnchorPointX>0.5</AnchorPointX>
-									<AnchorPointY>0.5</AnchorPointY>
-								</AnchorPoint>
-							</PointPlacement>
-						</LabelPlacement>
-						<Halo>
-							<Radius>1</Radius>
-							<Fill>
-								<CssParameter name="fill">#FFFFFF</CssParameter>
-							</Fill>
-						</Halo>
-						<Fill>
-							<CssParameter name="fill">#000000</CssParameter>
-						</Fill>
-					</TextSymbolizer>
-				</Rule>
-				<Rule>
 					<Name>woonkern</Name>
 					<Title>woonkern</Title>
 					<ogc:Filter>
@@ -161,6 +21,7 @@
 							<ogc:Literal>18400</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
@@ -198,6 +59,7 @@
 							<ogc:Literal>18410</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
@@ -235,6 +97,7 @@
 							<ogc:Literal>18420</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
@@ -272,6 +135,7 @@
 							<ogc:Literal>18430</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
@@ -280,6 +144,150 @@
 							<CssParameter name="font-family">Liberation Sans</CssParameter>
 							<CssParameter name="font-size">43</CssParameter>
 							<CssParameter name="font-weight">bold</CssParameter>
+						</Font>
+						<LabelPlacement>
+							<PointPlacement>
+								<AnchorPoint>
+									<AnchorPointX>0.5</AnchorPointX>
+									<AnchorPointY>0.5</AnchorPointY>
+								</AnchorPoint>
+							</PointPlacement>
+						</LabelPlacement>
+						<Halo>
+							<Radius>1</Radius>
+							<Fill>
+								<CssParameter name="fill">#FFFFFF</CssParameter>
+							</Fill>
+						</Halo>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+						</Fill>
+					</TextSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>buurtschap</Name>
+					<Title>buurtschap</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:Literal>18450</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<TextSymbolizer>
+						<Label>
+							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Liberation Sans</CssParameter>
+							<CssParameter name="font-size">21</CssParameter>
+						</Font>
+						<LabelPlacement>
+							<PointPlacement>
+								<AnchorPoint>
+									<AnchorPointX>0.5</AnchorPointX>
+									<AnchorPointY>0.5</AnchorPointY>
+								</AnchorPoint>
+							</PointPlacement>
+						</LabelPlacement>
+						<Fill>
+							<CssParameter name="fill">#686868</CssParameter>
+						</Fill>
+					</TextSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>gehucht</Name>
+					<Title>gehucht</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:Literal>18440</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<TextSymbolizer>
+						<Label>
+							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Liberation Sans</CssParameter>
+							<CssParameter name="font-size">27</CssParameter>
+						</Font>
+						<LabelPlacement>
+							<PointPlacement>
+								<AnchorPoint>
+									<AnchorPointX>0.5</AnchorPointX>
+									<AnchorPointY>0.5</AnchorPointY>
+								</AnchorPoint>
+							</PointPlacement>
+						</LabelPlacement>
+						<Halo>
+							<Radius>1</Radius>
+							<Fill>
+								<CssParameter name="fill">#FFFFFF</CssParameter>
+							</Fill>
+						</Halo>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+						</Fill>
+					</TextSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>stadsdeel</Name>
+					<Title>stadsdeel</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:Literal>18500</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<TextSymbolizer>
+						<Label>
+							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Liberation Sans</CssParameter>
+							<CssParameter name="font-size">27</CssParameter>
+							<CssParameter name="font-style">italic</CssParameter>
+						</Font>
+						<LabelPlacement>
+							<PointPlacement>
+								<AnchorPoint>
+									<AnchorPointX>0.5</AnchorPointX>
+									<AnchorPointY>0.5</AnchorPointY>
+								</AnchorPoint>
+							</PointPlacement>
+						</LabelPlacement>
+						<Halo>
+							<Radius>1</Radius>
+							<Fill>
+								<CssParameter name="fill">#FFFFFF</CssParameter>
+							</Fill>
+						</Halo>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+						</Fill>
+					</TextSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>wijk</Name>
+					<Title>wijk</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:Literal>18510</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<TextSymbolizer>
+						<Label>
+							<ogc:PropertyName>naamofficieel</ogc:PropertyName>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">Liberation Sans</CssParameter>
+							<CssParameter name="font-size">27</CssParameter>
+							<CssParameter name="font-style">italic</CssParameter>
 						</Font>
 						<LabelPlacement>
 							<PointPlacement>

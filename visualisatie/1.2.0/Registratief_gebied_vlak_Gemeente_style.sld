@@ -21,6 +21,7 @@
 							<ogc:Literal><![CDATA[17020]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#D99800</CssParameter>

@@ -7,38 +7,22 @@
 	xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
 	version="1.0.0">
 	<NamedLayer>
-		<Name>Plantopografie_vlak</Name>
+		<Name>Wegdeel_hartlijn</Name>
 		<UserStyle>
-			<Name>Plantopografie_vlak_style</Name>
-			<Title>Plantopografie vlak style</Title>
+			<Name>Wegdeel_hartlijn_style</Name>
+			<Title>Wegdeel hartlijn style</Title>
 			<FeatureTypeStyle>
 				<Rule>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<PolygonSymbolizer>
-						<Fill>
-							<GraphicFill>
-								<Graphic>
-									<Mark>
-										<WellKnownName>shape://slash</WellKnownName>
-										<Fill>
-											<CssParameter name="fill">#686868</CssParameter>
-										</Fill>
-										<Stroke>
-											<CssParameter name="stroke">#686868</CssParameter>
-											<CssParameter name="stroke-width">1</CssParameter>
-										</Stroke>
-									</Mark>
-									<Opacity>1</Opacity>
-									<Size>20</Size>
-								</Graphic>
-							</GraphicFill>
-						</Fill>
+					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#686868</CssParameter>
 							<CssParameter name="stroke-width">2</CssParameter>
-							<CssParameter name="stroke-linecap">round</CssParameter>
+							<CssParameter name="stroke-dasharray">12 6</CssParameter>
+							<CssParameter name="stroke-linecap">butt</CssParameter>
+							<CssParameter name="stroke-linejoin">mitre</CssParameter>
 						</Stroke>
-					</PolygonSymbolizer>
+					</LineSymbolizer>
 				</Rule>
 			</FeatureTypeStyle>
 		</UserStyle>

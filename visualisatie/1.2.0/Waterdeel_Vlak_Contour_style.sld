@@ -13,6 +13,7 @@
 			<Title>Waterdeel vlak contour style</Title>
 			<FeatureTypeStyle>
 				<Rule>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#73B2FF</CssParameter>

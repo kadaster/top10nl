@@ -13,44 +13,177 @@
 			<Title>Wegdeel vlak style</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Name>10001</Name>
-					<Title>10001</Title>
+					<Name>autosnelweg</Name>
+					<Title>autosnelweg</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10001]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10202]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10200]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10201]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#CCCCCC</CssParameter>
+							<CssParameter name="fill">#996089</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>10760</Name>
-					<Title>10760</Title>
+					<Name>fietspad</Name>
+					<Title>fietspad</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10760]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10742]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10740]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10741]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill">#FFA77F</CssParameter>
+							<CssParameter name="fill">#FFD37F</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>10782</Name>
-					<Title>10782</Title>
+					<Name>half verharde weg</Name>
+					<Title>half verharde weg</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10782]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10721]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10720]]></ogc:Literal>								
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#B3B300</CssParameter>
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>				
+				<Rule>
+					<Name>hoofdweg</Name>
+					<Title>hoofdweg</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10302]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10300]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10401]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10310]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10311]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10312]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#E60000</CssParameter>
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>lokale weg</Name>
+					<Title>lokale weg</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10502]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10500]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10501]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10510]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10511]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10512]]></ogc:Literal>							
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#FFFF00</CssParameter>
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>onverharde weg</Name>
+					<Title>onverharde weg</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10732]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10730]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10731]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#9C9C9C</CssParameter>
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>overige weg</Name>
+					<Title>overige weg</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10790]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10700]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10701]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10702]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10710]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10711]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10712]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10791]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10792]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#FFFFFF</CssParameter>
+						</Fill>
+					</PolygonSymbolizer>
+				</Rule>				
+				<Rule>
+					<Name>parkeerplaats</Name>
+					<Title>parkeerplaats</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10781]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10780]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFFF</CssParameter>
@@ -62,198 +195,23 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>10781</Name>
-					<Title>10781</Title>
+					<Name>regionale weg</Name>
+					<Title>regionale weg</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10781]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10402]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10400]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10301]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10410]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10411]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10412]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#343434</CssParameter>
-							<CssParameter name="stroke-width">1</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10792</Name>
-					<Title>10792</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10792]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10791</Name>
-					<Title>10791</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10791]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10790</Name>
-					<Title>10790</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10790]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10702</Name>
-					<Title>10702</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10702]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10602</Name>
-					<Title>10602</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10602]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10701</Name>
-					<Title>10701</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10701]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10712</Name>
-					<Title>10712</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10712]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10502</Name>
-					<Title>10502</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10502]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFF00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10601</Name>
-					<Title>10601</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10601]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10711</Name>
-					<Title>10711</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10711]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10722</Name>
-					<Title>10722</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10722]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#B3B300</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10402</Name>
-					<Title>10402</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10402]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFAA00</CssParameter>
@@ -261,284 +219,20 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>10501</Name>
-					<Title>10501</Title>
+					<Name>rolbaan, platform</Name>
+					<Title>rolbaan, platform</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10501]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10102]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10100]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10101]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFF00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10512</Name>
-					<Title>10512</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10512]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFF00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10710</Name>
-					<Title>10710</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10710]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10721</Name>
-					<Title>10721</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10721]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#B3B300</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10732</Name>
-					<Title>10732</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10732]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#9C9C9C</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10302</Name>
-					<Title>10302</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10302]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#E60000</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10401</Name>
-					<Title>10401</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10401]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFAA00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10412</Name>
-					<Title>10412</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10412]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFAA00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10511</Name>
-					<Title>10511</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10511]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFF00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10742</Name>
-					<Title>10742</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10742]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFD37F</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10731</Name>
-					<Title>10731</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10731]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#9C9C9C</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10202</Name>
-					<Title>10202</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10202]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#996089</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10301</Name>
-					<Title>10301</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10301]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#E60000</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10312</Name>
-					<Title>10312</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10312]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#E60000</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10411</Name>
-					<Title>10411</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10411]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFAA00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10510</Name>
-					<Title>10510</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10510]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFF00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10741</Name>
-					<Title>10741</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10741]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFD37F</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10752</Name>
-					<Title>10752</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10752]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFA77F</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10102</Name>
-					<Title>10102</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10102]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCCCC</CssParameter>
@@ -546,89 +240,19 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>10201</Name>
-					<Title>10201</Title>
+					<Name>startbaan, landingsbaan</Name>
+					<Title>startbaan, landingsbaan</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10201]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10002]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10000]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#996089</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10311</Name>
-					<Title>10311</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10311]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#E60000</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10410</Name>
-					<Title>10410</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10410]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFAA00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10751</Name>
-					<Title>10751</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10751]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFA77F</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10762</Name>
-					<Title>10762</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10762]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFA77F</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10002</Name>
-					<Title>10002</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10002]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCCCC</CssParameter>
@@ -636,249 +260,50 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>10101</Name>
-					<Title>10101</Title>
+					<Name>straat</Name>
+					<Title>straat</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10101]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10602]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10601]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10600]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#CCCCCC</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10310</Name>
-					<Title>10310</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10310]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#E60000</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10761</Name>
-					<Title>10761</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10761]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFA77F</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10000</Name>
-					<Title>10000</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10000]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#CCCCCC</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10100</Name>
-					<Title>10100</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10100]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#CCCCCC</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10200</Name>
-					<Title>10200</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10200]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#996089</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10300</Name>
-					<Title>10300</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10300]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#E60000</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10400</Name>
-					<Title>10400</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10400]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFAA00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10500</Name>
-					<Title>10500</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10500]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFF00</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10600</Name>
-					<Title>10600</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10600]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFFF</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
-				</Rule>
+				</Rule>				
 				<Rule>
-					<Name>10740</Name>
-					<Title>10740</Title>
+					<Name>voetgangersgebied</Name>
+					<Title>voetgangersgebied</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10740]]></ogc:Literal>
+							<ogc:Function name="in">
+								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:Literal><![CDATA[10760]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10750]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10751]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10752]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10761]]></ogc:Literal>
+								<ogc:Literal><![CDATA[10762]]></ogc:Literal>
+							</ogc:Function>
+							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFD37F</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10750</Name>
-					<Title>10750</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10750]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFA77F</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10780</Name>
-					<Title>10780</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10780]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-						<Stroke>
-							<CssParameter name="stroke">#343434</CssParameter>
-							<CssParameter name="stroke-width">1</CssParameter>
-						</Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10700</Name>
-					<Title>10700</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10700]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#FFFFFF</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10720</Name>
-					<Title>10720</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10720]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#B3B300</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>10730</Name>
-					<Title>10730</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[10730]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<Fill>
-							<CssParameter name="fill">#9C9C9C</CssParameter>
-						</Fill>
-					</PolygonSymbolizer>
-				</Rule>
+				</Rule>				
 			</FeatureTypeStyle>
 		</UserStyle>
 	</NamedLayer>

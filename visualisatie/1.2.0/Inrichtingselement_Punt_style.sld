@@ -13,130 +13,6 @@
 			<Title>Inrichtingselement punt style</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Name>treinstation</Name>
-					<Title>treinstation</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[15940]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator> 
-					<PointSymbolizer>
-						<Graphic>
-							<Mark>
-								<WellKnownName>circle</WellKnownName>
-								<Fill>
-									<CssParameter name="fill">#FCCCF9</CssParameter>
-								</Fill>
-								<Stroke>
-									<CssParameter name="stroke">#000000</CssParameter>
-									<CssParameter name="stroke-width">1</CssParameter>
-								</Stroke>
-							</Mark>
-							<Opacity>1</Opacity>
-							<Size>4</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>metrostation</Name>
-					<Title>metrostation</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[15900]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator> 
-					<PointSymbolizer>
-						<Graphic>
-							<Mark>
-								<WellKnownName>circle</WellKnownName>
-								<Fill>
-									<CssParameter name="fill">#FCCCF9</CssParameter>
-								</Fill>
-								<Stroke>
-									<CssParameter name="stroke">#000000</CssParameter>
-									<CssParameter name="stroke-width">1</CssParameter>
-								</Stroke>
-							</Mark>
-							<Opacity>1</Opacity>
-							<Size>4</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>GPS kernnetpunt</Name>
-					<Title>GPS kernnetpunt</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[15160]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator> 
-					<PointSymbolizer>
-						<Graphic>
-							<Mark>
-								<WellKnownName>ttf://ESRI Default Marker#0x23</WellKnownName>
-								<Fill>
-									<CssParameter name="fill">#FF0000</CssParameter>
-								</Fill>
-							</Mark>
-							<Opacity>1</Opacity>
-							<Size>18</Size>
-						</Graphic>
-					</PointSymbolizer>
-					<PointSymbolizer>
-						<Graphic>
-							<Mark>
-								<WellKnownName>ttf://ESRI Default Marker#0x30</WellKnownName>
-								<Fill>
-									<CssParameter name="fill">#000000</CssParameter>
-								</Fill>
-							</Mark>
-							<Opacity>1</Opacity>
-							<Size>18</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>RD punt</Name>
-					<Title>RD punt</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
-							<ogc:Literal><![CDATA[15560]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator> 
-					<PointSymbolizer>
-						<Graphic>
-							<Mark>
-								<WellKnownName>ttf://ESRI Default Marker#0x23</WellKnownName>
-								<Fill>
-									<CssParameter name="fill">#FFFFFF</CssParameter>
-								</Fill>
-							</Mark>
-							<Opacity>1</Opacity>
-							<Size>18</Size>
-						</Graphic>
-					</PointSymbolizer>
-					<PointSymbolizer>
-						<Graphic>
-							<Mark>
-								<WellKnownName>ttf://ESRI Default Marker#0x30</WellKnownName>
-								<Fill>
-									<CssParameter name="fill">#000000</CssParameter>
-								</Fill>
-							</Mark>
-							<Opacity>1</Opacity>
-							<Size>18</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
 					<Name>baak</Name>
 					<Title>baak</Title>
 					<ogc:Filter>
@@ -225,6 +101,41 @@
 							</Mark>
 							<Opacity>1</Opacity>
 							<Size>12</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>GPS kernnetpunt</Name>
+					<Title>GPS kernnetpunt</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:Literal><![CDATA[15160]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI Default Marker#0x23</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#FF0000</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>18</Size>
+						</Graphic>
+					</PointSymbolizer>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI Default Marker#0x30</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#000000</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>18</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -484,6 +395,33 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
+					<Name>metrostation</Name>
+					<Title>metrostation</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:Literal><![CDATA[15900]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>circle</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#FCCCF9</CssParameter>
+								</Fill>
+								<Stroke>
+									<CssParameter name="stroke">#000000</CssParameter>
+									<CssParameter name="stroke-width">1</CssParameter>
+								</Stroke>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>4</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
 					<Name>paal</Name>
 					<Title>paal</Title>
 					<ogc:Filter>
@@ -558,6 +496,41 @@
 							</Mark>
 							<Opacity>1</Opacity>
 							<Size>4</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>RD punt</Name>
+					<Title>RD punt</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:Literal><![CDATA[15560]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI Default Marker#0x23</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#FFFFFF</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>18</Size>
+						</Graphic>
+					</PointSymbolizer>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI Default Marker#0x30</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#000000</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>18</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -681,6 +654,33 @@
 								<WellKnownName>circle</WellKnownName>
 								<Fill>
 									<CssParameter name="fill">#D7F9FC</CssParameter>
+								</Fill>
+								<Stroke>
+									<CssParameter name="stroke">#000000</CssParameter>
+									<CssParameter name="stroke-width">1</CssParameter>
+								</Stroke>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>4</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>treinstation</Name>
+					<Title>treinstation</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:Literal><![CDATA[15940]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>circle</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#FCCCF9</CssParameter>
 								</Fill>
 								<Stroke>
 									<CssParameter name="stroke">#000000</CssParameter>

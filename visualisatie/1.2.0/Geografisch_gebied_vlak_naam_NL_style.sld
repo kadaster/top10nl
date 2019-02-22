@@ -19,6 +19,7 @@
 							<ogc:Literal>18000</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -47,6 +48,7 @@
 							<ogc:Literal>18010</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -81,6 +83,7 @@
 							<ogc:Literal>18030</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -115,6 +118,7 @@
 							<ogc:Literal>18040</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -144,6 +148,7 @@
 							<ogc:Literal>18050</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -173,6 +178,7 @@
 							<ogc:Literal>18060</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -201,6 +207,7 @@
 							<ogc:Literal>18070</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -235,6 +242,7 @@
 							<ogc:Literal>18090</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -264,6 +272,7 @@
 							<ogc:Literal>18100</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -292,6 +301,7 @@
 							<ogc:Literal>18120</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -321,6 +331,7 @@
 							<ogc:Literal>18130</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -350,6 +361,7 @@
 							<ogc:Literal>18180</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
@@ -379,6 +391,7 @@
 							<ogc:Literal>18190</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>

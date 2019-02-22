@@ -13,6 +13,7 @@
 			<Title>Plantopografie lijn style</Title>
 			<FeatureTypeStyle>
 				<Rule>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#686868</CssParameter>

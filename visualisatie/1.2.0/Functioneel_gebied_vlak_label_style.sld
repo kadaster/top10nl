@@ -21,6 +21,7 @@
 							<ogc:Literal>19050</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label><![CDATA[&]]></Label>
 						<Font>
@@ -42,6 +43,22 @@
 						<Fill>
 							<CssParameter name="fill">#0070FF</CssParameter>
 						</Fill>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI ArcGIS TDN#0x5A</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#FFFFFF</CssParameter>
+								</Fill>
+							</Mark>
+                          	<Displacement>
+								<DisplacementX>+4</DisplacementX>
+								<DisplacementY>+1</DisplacementY>
+							</Displacement>
+							<Size>8</Size>
+						</Graphic>
+						<VendorOption name="spaceAround">0</VendorOption>
+						<VendorOption name="graphic-resize">stretch</VendorOption>
+						<VendorOption name="graphic-margin">0</VendorOption>
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
@@ -82,12 +99,15 @@
 									<CssParameter name="fill">#FFFFFF</CssParameter>
 								</Fill>
 							</Mark>
+							<Displacement>
+								<DisplacementX>+1</DisplacementX>
+							</Displacement>
 							<Opacity>1</Opacity>
 							<Size>8</Size>
 						</Graphic>
-						<VendorOption name="spaceAround">-1</VendorOption>
+						<VendorOption name="spaceAround">0</VendorOption>
 						<VendorOption name="graphic-resize">stretch</VendorOption>
-						<VendorOption name="graphic-margin">10</VendorOption>
+						<VendorOption name="graphic-margin">0</VendorOption>
 					</TextSymbolizer>
 				</Rule>
 			</FeatureTypeStyle>

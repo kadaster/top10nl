@@ -13,6 +13,7 @@
 			<Title>Plantopografie punt style</Title>
 			<FeatureTypeStyle>
 				<Rule>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>

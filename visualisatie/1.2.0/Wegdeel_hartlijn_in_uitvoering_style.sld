@@ -16,6 +16,7 @@
 					<Name>&lt;all other values&gt;</Name>
 					<Title>&lt;all other values&gt;</Title>
 					<ElseFilter />
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#AAAAAA</CssParameter>

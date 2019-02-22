@@ -21,6 +21,7 @@
 							<ogc:Literal><![CDATA[dras, moerassig]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<GraphicFill>
@@ -48,6 +49,7 @@
 							<ogc:Literal><![CDATA[dras, moerassig|met riet]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<GraphicFill>
@@ -96,6 +98,7 @@
 							<ogc:Literal><![CDATA[met riet]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<GraphicFill>

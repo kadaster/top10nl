@@ -13,6 +13,7 @@
 			<Title>Wegdeel hartlijn tunnelnaam style</Title>
 			<FeatureTypeStyle>
 				<Rule>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>tunnelnaam</ogc:PropertyName>
