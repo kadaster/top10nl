@@ -1,0 +1,6 @@
+"Code","Waarde","Omschrijving","Inwinningscriteria","DatumVanaf","DatumTot"
+"1","TOP10vector","Digitaal bestand, bestaande uit gecodeerde vectoren, die tezamen de topografie van Nederland weergeven op de schaal 1:10.000. Voorloper van TOP10NL.","","01-09-2014",""
+"2","luchtfoto","Een fotografische opname van een deel van het aardoppervlak, gemaakt vanuit een vliegtuig.","","01-09-2014",""
+"3","RD","Net van vaste punten in Nederland. Deze vaste punten zijn de referentiepunten waarnaar overige metingen en karteringen kunnen verwijzen. De referentiepunten maken deel uit van een netwerk dat is vastgelegd in het systeem van de Rijksdriehoeksmeting (RD). Dit netwerk wordt beheerd en onderhouden door het Kadaster. ( www.kadaster.nl ).","","01-09-2014",""
+"4","overig","De waarde van het objectkenmerk is bekend, maar anders dan de genoemde waarden.","","01-09-2014",""
+"5","externe data","De data worden aangeleverd door externe leveranciers.","","01-09-2014",""
