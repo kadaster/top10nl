@@ -25,7 +25,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>

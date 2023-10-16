@@ -56,7 +56,7 @@
 							<ogc:Literal>19450</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>26000</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>

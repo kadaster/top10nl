@@ -21,7 +21,7 @@
 							<ogc:Literal><![CDATA[15000]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -39,7 +39,7 @@
 							<ogc:Literal><![CDATA[15020]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<GraphicStroke>
@@ -67,7 +67,7 @@
 							<ogc:Literal><![CDATA[15130]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#B5B3B3</CssParameter>
@@ -84,7 +84,7 @@
 							<ogc:Literal><![CDATA[15180]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<GraphicStroke>
@@ -129,7 +129,7 @@
 							<ogc:Literal><![CDATA[15190]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -167,7 +167,7 @@
 							<ogc:Literal><![CDATA[15210]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -184,7 +184,7 @@
 							<ogc:Literal><![CDATA[15090]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -248,7 +248,7 @@
 							<ogc:Literal><![CDATA[15460]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#FF0000</CssParameter>
@@ -265,7 +265,7 @@
 							<ogc:Literal><![CDATA[15490]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#008096</CssParameter>
@@ -282,7 +282,7 @@
 							<ogc:Literal><![CDATA[15570]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#0F7C81</CssParameter>
@@ -309,7 +309,7 @@
 							<ogc:Literal><![CDATA[15610]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -328,7 +328,7 @@
 							<ogc:Literal><![CDATA[15670]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#A8A7A7</CssParameter>
@@ -345,7 +345,7 @@
 							<ogc:Literal><![CDATA[15720]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#BCB8FC</CssParameter>
@@ -362,7 +362,7 @@
 							<ogc:Literal><![CDATA[15760]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -374,7 +374,7 @@
 					<Name>&lt;all other values&gt;</Name>
 					<Title>&lt;all other values&gt;</Title>
 					<ElseFilter />
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#00A17B</CssParameter>

@@ -15,7 +15,7 @@
 				<Rule>
 					<Name>algemeen</Name>
 					<Title>algemeen</Title>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -38,7 +38,7 @@
 							<ogc:Literal><![CDATA[15010]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -61,7 +61,7 @@
 							<ogc:Literal><![CDATA[15030]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -84,7 +84,7 @@
 							<ogc:Literal><![CDATA[15100]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -111,7 +111,7 @@
 							<ogc:Literal><![CDATA[15120]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -134,7 +134,7 @@
 							<ogc:Literal><![CDATA[15160]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -169,7 +169,7 @@
 							<ogc:Literal><![CDATA[15170]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -223,7 +223,7 @@
 							<ogc:Literal><![CDATA[15220]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -246,7 +246,7 @@
 							<ogc:Literal><![CDATA[15230]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -269,7 +269,7 @@
 							<ogc:Literal><![CDATA[15280]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -318,7 +318,7 @@
 							<ogc:Literal><![CDATA[15290]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -367,7 +367,7 @@
 							<ogc:Literal><![CDATA[15300]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -416,7 +416,7 @@
 							<ogc:Literal><![CDATA[15310]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -465,7 +465,7 @@
 							<ogc:Literal><![CDATA[15320]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -488,7 +488,7 @@
 							<ogc:Literal><![CDATA[15350]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -511,7 +511,7 @@
 							<ogc:Literal><![CDATA[15380]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -534,7 +534,7 @@
 							<ogc:Literal><![CDATA[15450]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -557,7 +557,7 @@
 							<ogc:Literal><![CDATA[15900]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -580,7 +580,7 @@
 							<ogc:Literal><![CDATA[15480]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -630,7 +630,7 @@
 							<ogc:Literal><![CDATA[15510]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -653,7 +653,7 @@
 							<ogc:Literal><![CDATA[15520]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -676,7 +676,7 @@
 							<ogc:Literal><![CDATA[15560]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -711,7 +711,7 @@
 							<ogc:Literal><![CDATA[15920]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -734,7 +734,7 @@
 							<ogc:Literal><![CDATA[15590]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -757,7 +757,7 @@
 							<ogc:Literal><![CDATA[15600]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -784,7 +784,7 @@
 							<ogc:Literal><![CDATA[15930]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -807,7 +807,7 @@
 							<ogc:Literal><![CDATA[15660]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -834,7 +834,7 @@
 							<ogc:Literal><![CDATA[15940]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -861,7 +861,7 @@
 							<ogc:Literal><![CDATA[15770]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -884,7 +884,7 @@
 							<ogc:Literal><![CDATA[15810]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -907,7 +907,7 @@
 							<ogc:Literal><![CDATA[15840]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -930,7 +930,7 @@
 							<ogc:Literal><![CDATA[15850]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator> 
+					<MaxScaleDenominator>9525</MaxScaleDenominator> 
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
