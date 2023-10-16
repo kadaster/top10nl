@@ -13,25 +13,42 @@
 			<Title>Gebouw punt style</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Name>brandtoren</Name>
-					<Title>brandtoren</Title>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
-							<ogc:Literal><![CDATA[brandtoren]]></ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<Name>algemeen</Name>
+					<Title>algemeen</Title>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
 								<WellKnownName>ttf://Wingdings#0x6C</WellKnownName>
 								<Fill>
-									<CssParameter name="fill">#000000</CssParameter>
+									<CssParameter name="fill">#A0A0A0</CssParameter>
 								</Fill>
 							</Mark>
 							<Opacity>1</Opacity>
-							<Size>2</Size>
+							<Size>4</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>brandtoren</Name>
+					<Title>brandtoren</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
+							<ogc:Literal><![CDATA[brandtoren]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://Wingdings#0x6C</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#E30614</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>12</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -40,11 +57,11 @@
 					<Title>gemaal</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
 							<ogc:Literal><![CDATA[gemaal]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -54,7 +71,7 @@
 								</Fill>
 							</Mark>
 							<Opacity>1</Opacity>
-							<Size>12</Size>
+							<Size>20</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -63,25 +80,110 @@
 					<Title>kapel</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
 							<ogc:Literal><![CDATA[kapel]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
-								<WellKnownName>circle</WellKnownName>
+								<WellKnownName>ttf://Wingdings#0x6C</WellKnownName>
 								<Fill>
-									<CssParameter name="fill">#FCC5CA</CssParameter>
+									<CssParameter name="fill">#A0A0A0</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>4</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>kerk</Name>
+					<Title>kerk</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
+							<ogc:Literal><![CDATA[kerk]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI ArcGIS TDN#0x34</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#E30614</CssParameter>
 								</Fill>
 								<Stroke>
-									<CssParameter name="stroke">#000000</CssParameter>
+									<CssParameter name="stroke">#FFFFFF</CssParameter>
 									<CssParameter name="stroke-width">1</CssParameter>
 								</Stroke>
 							</Mark>
 							<Opacity>1</Opacity>
-							<Size>4</Size>
+							<Size>20</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>moskee</Name>
+					<Title>moskee</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
+							<ogc:Literal><![CDATA[moskee]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI ArcGIS TDN#0x34</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#E30614</CssParameter>
+								</Fill>
+								<Stroke>
+									<CssParameter name="stroke">#FFFFFF</CssParameter>
+									<CssParameter name="stroke-width">1</CssParameter>
+								</Stroke>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>20</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>parkeerdak, parkeerdek, parkeergarage</Name>
+					<Title>parkeerdak, parkeerdek, parkeergarage</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
+							<ogc:Literal><![CDATA[parkeerdak, parkeerdek, parkeergarage]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>square</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#FFFFFF</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>14</Size>
+						</Graphic>
+					</PointSymbolizer>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI ArcGIS TDN#0x3E</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#009EE3</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>15</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -90,11 +192,11 @@
 					<Title>radarpost</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
 							<ogc:Literal><![CDATA[radarpost]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -108,7 +210,7 @@
 								</Stroke>
 							</Mark>
 							<Opacity>1</Opacity>
-							<Size>4</Size>
+							<Size>5</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -117,11 +219,11 @@
 					<Title>schoorsteen</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
 							<ogc:Literal><![CDATA[schoorsteen]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -140,25 +242,61 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
+					<Name>tankstation</Name>
+					<Title>tankstation</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
+							<ogc:Literal><![CDATA[tankstation]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>square</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#FFFFFF</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>14</Size>
+						</Graphic>
+					</PointSymbolizer>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI ArcGIS TDN#0x55</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#009EE3</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>15</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
 					<Name>toren</Name>
 					<Title>toren</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
 							<ogc:Literal><![CDATA[toren]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
-								<WellKnownName>ttf://ESRI ArcGIS TDN#0x32</WellKnownName>
-								<Fill>
-									<CssParameter name="fill">#000000</CssParameter>
-								</Fill>
+								<WellKnownName>circle</WellKnownName>
+								<Stroke>
+									<CssParameter name="stroke">#000000</CssParameter>
+									<CssParameter name="stroke-width">2</CssParameter>
+								</Stroke>
 							</Mark>
 							<Opacity>1</Opacity>
-							<Size>12</Size>
+							<Size>15</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -167,11 +305,11 @@
 					<Title>uitzichttoren</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
 							<ogc:Literal><![CDATA[uitzichttoren]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -186,15 +324,61 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
+					<Name>vuurtoren</Name>
+					<Title>vuurtoren</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
+							<ogc:Literal><![CDATA[vuurtoren]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI ArcGIS TDN#0x4C</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#000000</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>25</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>watertoren</Name>
+					<Title>watertoren</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
+							<ogc:Literal><![CDATA[watertoren]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://Wingdings#0x6C</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#009EE3</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>12</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
 					<Name>windmolen</Name>
 					<Title>windmolen</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
 							<ogc:Literal><![CDATA[windmolen]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -213,11 +397,11 @@
 					<Title>windmolen: korenmolen</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
 							<ogc:Literal><![CDATA[windmolen: korenmolen]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -236,11 +420,11 @@
 					<Title>windmolen: watermolen</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
 							<ogc:Literal><![CDATA[windmolen: watermolen]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -259,11 +443,11 @@
 					<Title>windturbine</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>typegebouw</ogc:PropertyName>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
 							<ogc:Literal><![CDATA[windturbine]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -273,7 +457,42 @@
 								</Fill>
 							</Mark>
 							<Opacity>1</Opacity>
-							<Size>20</Size>
+							<Size>30</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>ziekenhuis</Name>
+					<Title>ziekenhuis</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>typeGebouw</ogc:PropertyName>
+							<ogc:Literal><![CDATA[ziekenhuis]]></ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>square</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#FFFFFF</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>14</Size>
+						</Graphic>
+					</PointSymbolizer>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI ArcGIS TDN#0x54</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#009EE3</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>15</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
