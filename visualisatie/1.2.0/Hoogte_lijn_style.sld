@@ -17,7 +17,7 @@
 					<Title>dieptelijn</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[16000]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -37,7 +37,7 @@
 					<Title>hoogtelijn</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[16200]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -57,7 +57,7 @@
 					<Title>laagwaterlijn</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[16500]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>

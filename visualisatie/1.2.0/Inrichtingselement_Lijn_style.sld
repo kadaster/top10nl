@@ -17,11 +17,11 @@
 					<Title>aanlegsteiger</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15000]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -35,11 +35,11 @@
 					<Title>bomenrij</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15020]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<GraphicStroke>
@@ -63,11 +63,11 @@
 					<Title>geluidswering</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15130]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#B5B3B3</CssParameter>
@@ -80,11 +80,11 @@
 					<Title>heg, haag</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15180]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<GraphicStroke>
@@ -125,11 +125,11 @@
 					<Title>hekwerk</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15190]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -163,11 +163,11 @@
 					<Title>hoogspanningsleiding</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15210]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -180,11 +180,11 @@
 					<Title>koedam</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15090]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -197,7 +197,7 @@
 					<PointSymbolizer>
 						<Geometry>
 							<ogc:Function name="startPoint">
-								<ogc:PropertyName>_geometry_line</ogc:PropertyName>
+								<ogc:PropertyName>geom</ogc:PropertyName>
 							</ogc:Function>
 						</Geometry>
 						<Graphic>
@@ -211,7 +211,7 @@
 							<Size>6</Size>
 							<Rotation>
 								<ogc:Function name="startAngle">
-									<ogc:PropertyName>_geometry_line</ogc:PropertyName>
+									<ogc:PropertyName>geom</ogc:PropertyName>
 								</ogc:Function>
 							</Rotation>
 						</Graphic>
@@ -219,7 +219,7 @@
 					<PointSymbolizer>
 						<Geometry>
 							<ogc:Function name="endPoint">
-								<ogc:PropertyName>_geometry_line</ogc:PropertyName>
+								<ogc:PropertyName>geom</ogc:PropertyName>
 							</ogc:Function>
 						</Geometry>
 						<Graphic>
@@ -233,7 +233,7 @@
 							<Size>6</Size>
 							<Rotation>
 								<ogc:Function name="endAngle">
-									<ogc:PropertyName>_geometry_line</ogc:PropertyName>
+									<ogc:PropertyName>geom</ogc:PropertyName>
 								</ogc:Function>
 							</Rotation>
 						</Graphic>
@@ -244,11 +244,11 @@
 					<Title>muur</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15460]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#FF0000</CssParameter>
@@ -261,11 +261,11 @@
 					<Title>paalwerk</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15490]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#008096</CssParameter>
@@ -278,11 +278,11 @@
 					<Title>schietbaan</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15570]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#0F7C81</CssParameter>
@@ -305,11 +305,11 @@
 					<Title>sluisdeur</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15610]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -324,11 +324,11 @@
 					<Title>stuw</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15670]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#A8A7A7</CssParameter>
@@ -341,11 +341,11 @@
 					<Title>verkeersgeleider</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15720]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#BCB8FC</CssParameter>
@@ -358,11 +358,11 @@
 					<Title>wegafsluiting</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15760]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#000000</CssParameter>
@@ -374,7 +374,7 @@
 					<Name>&lt;all other values&gt;</Name>
 					<Title>&lt;all other values&gt;</Title>
 					<ElseFilter />
-					<MaxScaleDenominator>9525</MaxScaleDenominator>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<LineSymbolizer>
 						<Stroke>
 							<CssParameter name="stroke">#00A17B</CssParameter>

@@ -17,11 +17,23 @@
 					<Title>dieptepunt</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal>16100</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>circle</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#0000FF</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>0.8</Size>
+						</Graphic>
+					</PointSymbolizer>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>hoogte</ogc:PropertyName>
@@ -50,11 +62,23 @@
 					<Title>hoogtepunt</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal>16300</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>circle</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#A83800</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>0.8</Size>
+						</Graphic>
+					</PointSymbolizer>
 					<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>hoogte</ogc:PropertyName>
@@ -82,7 +106,7 @@
 					<Title>peil</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[16600]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -105,7 +129,7 @@
 					<Title>peil: winterpeil</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[16610]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -128,7 +152,7 @@
 					<Title>peil: zomerpeil</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[16620]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>

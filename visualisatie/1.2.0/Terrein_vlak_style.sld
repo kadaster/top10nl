@@ -18,7 +18,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14000]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14002]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14003]]></ogc:Literal>
@@ -26,7 +26,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#686868</CssParameter>
@@ -39,7 +39,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14010]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14012]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14013]]></ogc:Literal>
@@ -47,7 +47,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFDE</CssParameter>
@@ -60,7 +60,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14020]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14022]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14023]]></ogc:Literal>
@@ -68,7 +68,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<GraphicFill>
@@ -140,7 +140,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14030]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14032]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14033]]></ogc:Literal>
@@ -148,7 +148,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#9C9C9C</CssParameter>
@@ -161,7 +161,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14040]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14042]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14043]]></ogc:Literal>
@@ -169,7 +169,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#C9EB70</CssParameter>
@@ -199,7 +199,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14050]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14052]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14053]]></ogc:Literal>
@@ -207,7 +207,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFDE</CssParameter>
@@ -237,7 +237,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14200]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14203]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14202]]></ogc:Literal>
@@ -245,7 +245,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFFF</CssParameter>
@@ -258,7 +258,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14100]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14102]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14103]]></ogc:Literal>
@@ -266,7 +266,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCCCC</CssParameter>
@@ -279,7 +279,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14110]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14112]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14113]]></ogc:Literal>
@@ -287,7 +287,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCCCC</CssParameter>
@@ -300,7 +300,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14210]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14212]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14213]]></ogc:Literal>
@@ -308,7 +308,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFF73</CssParameter>
@@ -321,7 +321,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14120]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14122]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14123]]></ogc:Literal>
@@ -329,7 +329,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFDE</CssParameter>
@@ -359,7 +359,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14060]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14062]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14063]]></ogc:Literal>
@@ -367,7 +367,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#8CA800</CssParameter>
@@ -397,7 +397,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14130]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14132]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14133]]></ogc:Literal>
@@ -405,7 +405,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#C9EB70</CssParameter>
@@ -418,7 +418,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14070]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14072]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14073]]></ogc:Literal>
@@ -426,7 +426,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#8CA800</CssParameter>
@@ -456,7 +456,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14140]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14142]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14143]]></ogc:Literal>
@@ -464,7 +464,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FCB3FB</CssParameter>
@@ -477,7 +477,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14080]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14082]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14083]]></ogc:Literal>
@@ -485,7 +485,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#8CA800</CssParameter>
@@ -515,7 +515,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14090]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14092]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14093]]></ogc:Literal>
@@ -523,7 +523,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#8CA800</CssParameter>
@@ -553,7 +553,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14160]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14162]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14163]]></ogc:Literal>
@@ -561,11 +561,15 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFFF</CssParameter>
 						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#B2B2B2</CssParameter>
+							<CssParameter name="stroke-width">0.1</CssParameter>
+						</Stroke>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
@@ -574,7 +578,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14170]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14172]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14173]]></ogc:Literal>
@@ -582,7 +586,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#C9EB70</CssParameter>
@@ -612,7 +616,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14180]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14182]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14183]]></ogc:Literal>
@@ -620,7 +624,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFFFF</CssParameter>
@@ -633,7 +637,7 @@
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
-								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+								<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 								<ogc:Literal><![CDATA[14190]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14192]]></ogc:Literal>
 								<ogc:Literal><![CDATA[14193]]></ogc:Literal>
@@ -641,7 +645,7 @@
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MaxScaleDenominator>6250</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#FFFF73</CssParameter>

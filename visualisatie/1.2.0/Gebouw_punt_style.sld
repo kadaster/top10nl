@@ -15,7 +15,7 @@
 				<Rule>
 					<Name>algemeen</Name>
 					<Title>algemeen</Title>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -38,7 +38,7 @@
 							<ogc:Literal><![CDATA[brandtoren]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -61,7 +61,7 @@
 							<ogc:Literal><![CDATA[gemaal]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -84,7 +84,7 @@
 							<ogc:Literal><![CDATA[kapel]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -107,7 +107,7 @@
 							<ogc:Literal><![CDATA[kerk]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -134,7 +134,7 @@
 							<ogc:Literal><![CDATA[moskee]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -161,7 +161,7 @@
 							<ogc:Literal><![CDATA[parkeerdak, parkeerdek, parkeergarage]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -196,7 +196,7 @@
 							<ogc:Literal><![CDATA[radarpost]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -223,7 +223,7 @@
 							<ogc:Literal><![CDATA[schoorsteen]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -250,7 +250,7 @@
 							<ogc:Literal><![CDATA[tankstation]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -285,7 +285,7 @@
 							<ogc:Literal><![CDATA[toren]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -309,7 +309,7 @@
 							<ogc:Literal><![CDATA[uitzichttoren]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -332,7 +332,7 @@
 							<ogc:Literal><![CDATA[vuurtoren]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -355,7 +355,7 @@
 							<ogc:Literal><![CDATA[watertoren]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -378,7 +378,7 @@
 							<ogc:Literal><![CDATA[windmolen]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -401,7 +401,7 @@
 							<ogc:Literal><![CDATA[windmolen: korenmolen]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -424,7 +424,7 @@
 							<ogc:Literal><![CDATA[windmolen: watermolen]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -447,7 +447,7 @@
 							<ogc:Literal><![CDATA[windturbine]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -470,7 +470,7 @@
 							<ogc:Literal><![CDATA[ziekenhuis]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<MaxScaleDenominator>6250</MaxScaleDenominator>
+					<MaxScaleDenominator>9525</MaxScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
