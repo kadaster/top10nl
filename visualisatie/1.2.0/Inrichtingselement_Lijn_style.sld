@@ -17,7 +17,7 @@
 					<Title>aanlegsteiger</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15000]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -35,7 +35,7 @@
 					<Title>bomenrij</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15020]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -63,7 +63,7 @@
 					<Title>geluidswering</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15130]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -80,7 +80,7 @@
 					<Title>heg, haag</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15180]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -125,7 +125,7 @@
 					<Title>hekwerk</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15190]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -163,7 +163,7 @@
 					<Title>hoogspanningsleiding</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15210]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -180,7 +180,7 @@
 					<Title>koedam</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15090]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -197,7 +197,7 @@
 					<PointSymbolizer>
 						<Geometry>
 							<ogc:Function name="startPoint">
-								<ogc:PropertyName>_geometry_line</ogc:PropertyName>
+								<ogc:PropertyName>geom</ogc:PropertyName>
 							</ogc:Function>
 						</Geometry>
 						<Graphic>
@@ -211,7 +211,7 @@
 							<Size>6</Size>
 							<Rotation>
 								<ogc:Function name="startAngle">
-									<ogc:PropertyName>_geometry_line</ogc:PropertyName>
+									<ogc:PropertyName>geom</ogc:PropertyName>
 								</ogc:Function>
 							</Rotation>
 						</Graphic>
@@ -219,7 +219,7 @@
 					<PointSymbolizer>
 						<Geometry>
 							<ogc:Function name="endPoint">
-								<ogc:PropertyName>_geometry_line</ogc:PropertyName>
+								<ogc:PropertyName>geom</ogc:PropertyName>
 							</ogc:Function>
 						</Geometry>
 						<Graphic>
@@ -233,7 +233,7 @@
 							<Size>6</Size>
 							<Rotation>
 								<ogc:Function name="endAngle">
-									<ogc:PropertyName>_geometry_line</ogc:PropertyName>
+									<ogc:PropertyName>geom</ogc:PropertyName>
 								</ogc:Function>
 							</Rotation>
 						</Graphic>
@@ -244,7 +244,7 @@
 					<Title>muur</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15460]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -261,7 +261,7 @@
 					<Title>paalwerk</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15490]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -278,7 +278,7 @@
 					<Title>schietbaan</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15570]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -305,7 +305,7 @@
 					<Title>sluisdeur</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15610]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -324,7 +324,7 @@
 					<Title>stuw</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15670]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -341,7 +341,7 @@
 					<Title>verkeersgeleider</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15720]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -358,7 +358,7 @@
 					<Title>wegafsluiting</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal><![CDATA[15760]]></ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>

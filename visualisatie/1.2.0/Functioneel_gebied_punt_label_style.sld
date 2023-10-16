@@ -17,98 +17,70 @@
 					<Title>camping, kampeerterrein</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal>19050</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
-						<Label><![CDATA[&]]></Label>
-						<Font>
-							<CssParameter name="font-family">ESRI ArcGIS TDN</CssParameter>
-							<CssParameter name="font-size">57</CssParameter>
-						</Font>
-						<LabelPlacement>
-							<PointPlacement>
-								<AnchorPoint>
-									<AnchorPointX>0</AnchorPointX>
-									<AnchorPointY>0</AnchorPointY>
-								</AnchorPoint>
-								<Displacement>
-									<DisplacementX>-10</DisplacementX>
-									<DisplacementY>-10</DisplacementY>
-								</Displacement>
-							</PointPlacement>
-						</LabelPlacement>
-						<Fill>
-							<CssParameter name="fill">#0070FF</CssParameter>
-						</Fill>
+					<PointSymbolizer>
 						<Graphic>
 							<Mark>
-								<WellKnownName>ttf://ESRI ArcGIS TDN#0x5A</WellKnownName>
+								<WellKnownName>triangle</WellKnownName>
 								<Fill>
 									<CssParameter name="fill">#FFFFFF</CssParameter>
 								</Fill>
 							</Mark>
-                          	<Displacement>
-								<DisplacementX>+4</DisplacementX>
-								<DisplacementY>+1</DisplacementY>
-							</Displacement>
-							<Size>8</Size>
+							<Opacity>1</Opacity>
+							<Size>19</Size>
 						</Graphic>
-						<VendorOption name="spaceAround">0</VendorOption>
-						<VendorOption name="graphic-resize">stretch</VendorOption>
-						<VendorOption name="graphic-margin">0</VendorOption>
-					</TextSymbolizer>
+					</PointSymbolizer>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI ArcGIS TDN#0x26</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#009EE3</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>20</Size>
+						</Graphic>
+					</PointSymbolizer>
 				</Rule>
 				<Rule>
 					<Name>sportterrein, sportcomplex</Name>
 					<Title>sportterrein, sportcomplex</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+							<ogc:PropertyName>visualisatieCode</ogc:PropertyName>
 							<ogc:Literal>19450</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>26000</MaxScaleDenominator>
-					<TextSymbolizer>
-						<Label><![CDATA[F]]></Label>
-						<Font>
-							<CssParameter name="font-family">ESRI ArcGIS TDN</CssParameter>
-							<CssParameter name="font-size">51</CssParameter>
-						</Font>
-						<LabelPlacement>
-							<PointPlacement>
-								<AnchorPoint>
-									<AnchorPointX>0</AnchorPointX>
-									<AnchorPointY>0</AnchorPointY>
-								</AnchorPoint>
-								<Displacement>
-									<DisplacementX>-5</DisplacementX>
-									<DisplacementY>-10</DisplacementY>
-								</Displacement>
-							</PointPlacement>
-						</LabelPlacement>
-						<Fill>
-							<CssParameter name="fill">#0070FF</CssParameter>
-						</Fill>
+					<PointSymbolizer>
 						<Graphic>
 							<Mark>
-								<WellKnownName>ttf://Wingdings#0x6C</WellKnownName>
+								<WellKnownName>circle</WellKnownName>
 								<Fill>
 									<CssParameter name="fill">#FFFFFF</CssParameter>
 								</Fill>
 							</Mark>
-							<Displacement>
-								<DisplacementX>+1</DisplacementX>
-							</Displacement>
 							<Opacity>1</Opacity>
-							<Size>8</Size>
+							<Size>19</Size>
 						</Graphic>
-						<VendorOption name="spaceAround">0</VendorOption>
-						<VendorOption name="graphic-resize">stretch</VendorOption>
-						<VendorOption name="graphic-margin">0</VendorOption>
-					</TextSymbolizer>
+					</PointSymbolizer>
+					<PointSymbolizer>
+						<Graphic>
+							<Mark>
+								<WellKnownName>ttf://ESRI ArcGIS TDN#0x46</WellKnownName>
+								<Fill>
+									<CssParameter name="fill">#009EE3</CssParameter>
+								</Fill>
+							</Mark>
+							<Opacity>1</Opacity>
+							<Size>20</Size>
+						</Graphic>
+					</PointSymbolizer>
 				</Rule>
 			</FeatureTypeStyle>
 		</UserStyle>
